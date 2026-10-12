@@ -1,0 +1,12 @@
+/* All Banner geometry lives here. Shared gallery code only animates transforms. */
+.is-poster-gallery :is(.gallery-carousel[data-carousel="banner"],.video-carousel){--banner-width:min(48vw,900px,92dvh,calc((100dvh - 245px)*1.7768));height:var(--work-height);min-height:0;padding:16px 0 12px;gap:10px;grid-template-rows:auto minmax(0,1fr) auto;overflow:hidden}
+:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-top{padding-inline:var(--pad)}
+:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-stage{height:100%;min-height:0;width:min(100%,calc(var(--banner-width) + 140px + 12vw));max-width:100%;margin:auto;align-self:center;overflow:hidden;touch-action:pan-y;cursor:grab}
+:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-stage:active{cursor:grabbing}:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-slots{perspective:none}
+:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-slide{width:var(--banner-width);height:100%;max-height:52dvh;max-width:900px;backface-visibility:visible}
+:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-slide img{width:100%;height:100%;max-height:100%;object-fit:contain;box-shadow:none}
+:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-caption{padding:0}:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-prev{left:8px}:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-next{right:8px}
+body:has(.gallery-carousel[data-carousel="banner"]) .discipline-link[href="/works/banner"]{scale:1.06;color:#fff}
+@media(max-width:760px){:is(.gallery-carousel[data-carousel="banner"],.video-carousel) .poster-top{padding-inline:12px}.is-poster-gallery :is(.gallery-carousel[data-carousel="banner"],.video-carousel){padding-top:12px;padding-bottom:14px}}
+
+.video-carousel .gallery-action{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);padding:9px 15px;background:#101116cc;color:#fff;font-size:11px;white-space:nowrap;opacity:0;transition:opacity .2s;pointer-events:none}.video-carousel .poster-slide[data-offset="0"]:hover .gallery-action,.video-carousel .poster-slide[data-offset="0"]:focus-visible .gallery-action{opacity:1}

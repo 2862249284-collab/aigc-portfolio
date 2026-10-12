@@ -1,0 +1,6 @@
+html.intro-playing,body.intro-playing{overflow:hidden;overscroll-behavior:none}
+body.intro-playing #creator,body.intro-playing #about-me,body.intro-playing #work-orbit,body.intro-playing .site-header,body.intro-playing .site-footer{visibility:hidden}
+.auto-intro{position:fixed;inset:0;z-index:150;width:100%;height:100dvh;background:#151722 url('/assets/backgrounds/01-street.webp') center/cover;isolation:isolate;opacity:1;transition:opacity .5s ease;cursor:pointer}
+.auto-intro[hidden]{display:none!important}.auto-intro.intro-leaving{opacity:0}.intro-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.intro-title{position:absolute;inset:0;background:#080b1233;pointer-events:none}.intro-title .hero-title-group{opacity:1!important;transform:none!important}
+.intro-skip{position:absolute;right:var(--pad);bottom:32px;padding:15px 20px;font-size:11px;background:#10131a70;border:1px solid #ffffff44;border-radius:30px;z-index:2;color:#fff}
+@media(prefers-reduced-motion:reduce){.auto-intro{transition:none}}

@@ -1,0 +1,69 @@
+{
+  "sourceFolder": "C:\\Users\\EDY\\Desktop\\IP",
+  "method": "Original RGB + manually reviewed GrabCut alpha; no generative repainting",
+  "characters": [
+    {
+      "id": "linya",
+      "name": "凛芽",
+      "source": "0901_凛芽_人物设定.png",
+      "crop": [
+        743,
+        410,
+        986,
+        807
+      ],
+      "display": "characters/linya/main.png"
+    },
+    {
+      "id": "landou",
+      "name": "岚斗",
+      "source": "11.03_岚斗_人物设定.png",
+      "crop": [
+        61,
+        415,
+        295,
+        821
+      ],
+      "display": "characters/landou/main.png"
+    },
+    {
+      "id": "wuli",
+      "name": "雾璃",
+      "source": "13.05_雾璃_人物设定与三视图.png",
+      "crop": [
+        734,
+        275,
+        1001,
+        840
+      ],
+      "display": "characters/wuli/main.png"
+    },
+    {
+      "id": "nuanyou",
+      "name": "暖柚",
+      "source": "15.07_暖柚_人物设定.png",
+      "crop": [
+        713,
+        207,
+        1047,
+        760
+      ],
+      "display": "characters/nuanyou/main.png"
+    }
+  ],
+  "originals": {
+    "08IP海报.png": "b8e6c2e06ccd1746dcb8ac836693860403e6bf4430cb875fd60c3b5b9cc6c8e2",
+    "0901_凛芽_人物设定.png": "23302154592839bd6ff49c3ad353fe33256529713841a9ccb9fb8a8ff3d1632e",
+    "10，02_凛芽_表情与细节.png": "b551f48cf844ad28a3a728ea844c651ce4a4fa8dd8e331dfbe84d9aee571f9aa",
+    "11.03_岚斗_人物设定.png": "cfb443141f7b88fb04a2362660d69282f954cf7a491b65ac412eae8e7c6c86a3",
+    "12.04_岚斗_表情档案.png": "06ba1ae2e9f50711109ff2c423481ed1adfc5f41a6cd59b437dba18764ad72b7",
+    "13.05_雾璃_人物设定与三视图.png": "1d416e302765185a3cbc2a75f3fa603ec895399a679b4b596f7b6dc79fb7bc7c",
+    "14.06_雾璃_表情与细节.png": "1ef09ddb6139aadc50a89a9d130e81ab928d36bc43ea2546fd6fae1aec3aeec7",
+    "15.07_暖柚_人物设定.png": "8439a7f7b2b5d84972a852bf400702554c272de7463626df78cd0f50ba25f369",
+    "16.08_暖柚_表情档案.png": "4d8ee4121a1a52b39638a5a6a86f3fc609eeba022ef23d134a3ef644c726f749",
+    "17.01_商城中庭快闪展.png": "1cff935ad892f1b342375daaf83247bd71c490277858f843576d334106164467",
+    "18.02_柜台选购_背影.png": "948974da5a96786a30d2f6ed82835e761e32ea0f22b34f0bdef9822b00871ba2",
+    "19.03_海报长廊_背影.png": "9aeef72ae916e95abafbf1d1a9c814d1a3c51b7ee2dc086e40a98c44fa68043b",
+    "20.04_展台近景_背影挑选.png": "f4b015b5393bb5a13d6a147f324dafa4e6960b4eea36790d095ba5ff8de7bb4a"
+  }
+}

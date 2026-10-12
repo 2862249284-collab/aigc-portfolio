@@ -1,0 +1,93 @@
+{
+  "sourceURL": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260811_041248_545214ed-be7c-4672-91ec-ba075f6fa895.mp4",
+  "sourceSHA256": "e21d3d37695c1898f5e57cc9c554c6376ea9faae9a11bbf48b357e168a1f8043",
+  "duration": 13.041667,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "processing": "Original decoded frames. No crop, color grading, blur, compositing or generated imagery. WebP quality 92.",
+  "frames": [
+    {
+      "file": "01-street.webp",
+      "requestedTime": 0.0,
+      "frameIndex": 0,
+      "frameTime": 0.0,
+      "width": 1280,
+      "height": 720,
+      "purpose": "街道远景与纵深 / 圆环",
+      "bytes": 87824
+    },
+    {
+      "file": "02-approach.webp",
+      "requestedTime": 0.8,
+      "frameIndex": 20,
+      "frameTime": 0.8333333333333334,
+      "width": 1280,
+      "height": 720,
+      "purpose": "街道与人物完整构图 / 个人介绍",
+      "bytes": 95792
+    },
+    {
+      "file": "03-profile.webp",
+      "requestedTime": 4.8,
+      "frameIndex": 116,
+      "frameTime": 4.833333333333333,
+      "width": 1280,
+      "height": 720,
+      "purpose": "人物侧面与暖色建筑",
+      "bytes": 65612
+    },
+    {
+      "file": "04-confrontation.webp",
+      "requestedTime": 5.6,
+      "frameIndex": 135,
+      "frameTime": 5.625,
+      "width": 1280,
+      "height": 720,
+      "purpose": "双人对峙",
+      "bytes": 67008
+    },
+    {
+      "file": "05-action.webp",
+      "requestedTime": 7.2,
+      "frameIndex": 173,
+      "frameTime": 7.208333333333333,
+      "width": 1280,
+      "height": 720,
+      "purpose": "近身动作全景",
+      "bytes": 58362
+    },
+    {
+      "file": "06-closeup.webp",
+      "requestedTime": 8.8,
+      "frameIndex": 212,
+      "frameTime": 8.833333333333334,
+      "width": 1280,
+      "height": 720,
+      "purpose": "人物对照特写",
+      "bytes": 52444
+    },
+    {
+      "file": "07-perspective.webp",
+      "requestedTime": 11.2,
+      "frameIndex": 269,
+      "frameTime": 11.208333333333334,
+      "width": 1280,
+      "height": 720,
+      "purpose": "街道斜向透视 / 详情",
+      "bytes": 95280
+    },
+    {
+      "file": "08-finale.webp",
+      "requestedTime": 13.0,
+      "frameIndex": 312,
+      "frameTime": 13.0,
+      "width": 1280,
+      "height": 720,
+      "purpose": "原视频最后一帧 / AIGC 首页衔接",
+      "bytes": 118830
+    }
+  ]
+}

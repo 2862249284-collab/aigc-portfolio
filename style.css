@@ -1,0 +1,84 @@
+:root {
+  --red:#EB0004;
+  --fs-display:13.6054vw;
+  --fs-stat:6.8027vw;
+  --fs-work:max(24px,3.4014vw);
+  --fs-ui:max(13px,2.0408vw);
+  --fs-micro:max(11px,1.0204vw);
+  --gap-title:max(10px,1.6327vw);
+  --pad-header:max(16px,2.7211vw);
+  --top-header:max(16px,2.1769vw);
+  --ease-expo:cubic-bezier(0.16,1,0.3,1);
+  --runway:900vh;
+}
+* {box-sizing:border-box}
+html,body {margin:0;background:#000;overscroll-behavior:none}
+body {color:#fff;font-family:'Inter Tight',sans-serif;-webkit-font-smoothing:antialiased}
+p,h1,h2,dl,dd {margin:0}
+a {color:inherit;text-decoration:none}
+.stage {position:fixed;inset:0;z-index:0;opacity:calc(1 - var(--stage-out,0));pointer-events:none}
+video,canvas {position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.reveal {--rot:calc(var(--reveal,0)*var(--angle));position:fixed;top:50%;left:50%;width:calc(var(--reveal,0)*var(--span-w));height:var(--span-h);transform:translate(-50%,-50%) rotate(var(--rot));overflow:hidden;pointer-events:none;background:#000}
+.reveal--a {z-index:5;--angle:-45deg;--span-w:calc(72vw + 72vh);--span-h:calc(72vw + 72vh)}
+.reveal--b {z-index:7;--angle:0deg;--span-w:102vw;--span-h:102vh}
+.reveal video,.reveal canvas {position:absolute;inset:auto;top:50%;left:50%;width:100vw;height:100vh;object-fit:cover;transform:translate(-50%,-50%) rotate(calc(var(--rot)*-1))}
+canvas.plate {opacity:0;transition:opacity 240ms linear}
+canvas.plate.is-live {opacity:1}
+.is-covered {visibility:hidden}
+.chrome {position:fixed;inset:0;z-index:10;pointer-events:none;perspective:1200px}
+.header {position:absolute;top:calc(var(--top-header) + env(safe-area-inset-top));left:var(--pad-header);right:var(--pad-header);display:flex;justify-content:space-between}
+.header a {flex:1 1 0;min-width:0;font-family:'BBH Bartle',sans-serif;text-transform:uppercase;font-size:var(--fs-ui);white-space:nowrap;pointer-events:auto}
+.header a:nth-child(2) {text-align:center}
+.header a:nth-child(3) {text-align:right}
+@media (hover:hover) and (pointer:fine) {.is-ready .header a:hover {opacity:.65}}
+.header a:active {scale:.97}
+a:focus-visible {outline:2px solid var(--red);outline-offset:4px;box-shadow:0 0 0 6px rgba(0,0,0,.9)}
+.title {position:absolute;bottom:env(safe-area-inset-bottom);width:100%;display:flex;flex-direction:column;align-items:center;gap:var(--gap-title)}
+.title__tag {font-weight:400;font-size:var(--fs-ui);text-transform:uppercase;text-align:center}
+.title__mark {font-family:'BBH Bartle',sans-serif;font-size:var(--fs-display);font-weight:400;line-height:100%;white-space:nowrap}
+.title__script {font-family:'Alex Brush',cursive;line-height:0}
+.exit-3d {transform:translate3d(0,0,calc(var(--exit,0)*var(--exit-z,680px)));opacity:calc(1 - var(--exit,0)*var(--exit,0))}
+.exit-3d.is-exiting {filter:blur(calc(var(--exit)*var(--exit)*var(--exit-blur,8px)))}
+.is-gone {visibility:hidden;filter:none!important}
+.rise {opacity:var(--in,0);transform:translateY(calc((1 - var(--in,0))*var(--rise-y,2em)))}
+.rise.is-anim {filter:blur(calc((1 - var(--in,0))*(1 - var(--in,0))*var(--rise-blur,5px)))}
+.is-hidden {visibility:hidden}
+.about {position:absolute;left:max(20px,3.9456vw);bottom:max(16px,6.9038vh);width:max(260px,46.0544vw);font-weight:500;font-size:var(--fs-ui);line-height:100%}
+.stat {--exit:1;--exit-z:464px;position:absolute;bottom:calc(env(safe-area-inset-bottom) + max(12px,2.0921vh));width:100%;display:flex;flex-direction:column;align-items:center;gap:var(--gap-title)}
+.stat__label {font-size:var(--fs-ui);text-transform:uppercase;font-weight:400}
+.stat__num {font-family:'Alex Brush',cursive;font-size:var(--fs-stat);line-height:100%}
+.sec2 {position:fixed;inset:0;z-index:6;overflow:hidden;pointer-events:none;font-weight:500}
+.strip {position:absolute;top:0;left:0;width:100vw;transform:translateY(var(--s2y,0px));will-change:transform}
+.strip > * {position:absolute;opacity:var(--o,0)}
+.w-title {left:3.5374vw;top:22.9252vw;width:38.3673vw;display:flex;flex-direction:column;gap:1.6327vw}
+.w-title.is-entering {filter:blur(var(--wb,0px))}
+.w-eyebrow {font-size:var(--fs-micro);text-transform:uppercase}
+.w-mark {font-family:'BBH Bartle',sans-serif;font-size:var(--fs-work);font-weight:400;line-height:1.1}
+.w-script {font-family:'Alex Brush',cursive;line-height:0}
+.w-desc1 {left:50%;top:58.7755vw;width:calc(50% - var(--pad-header));font-size:var(--fs-ui);line-height:1.1}
+.w-list {top:110.2041vw;left:50%;width:64.2857vw;transform:translateX(-50%);display:flex;gap:2.7211vw}
+.w-col {display:flex;flex-direction:column;gap:2.6531vw;flex-shrink:0}
+.w-col--left {width:32.7891vw;align-items:flex-end;--dir:-1;text-align:right}
+.w-col--right {width:28.7755vw;align-items:flex-start;--dir:1}
+.w-row {--fly:0;display:flex;align-items:baseline;gap:1.3605vw;transform:translateX(calc(var(--dir,1)*var(--fly,0)*var(--fly-x,62vw)));opacity:calc(1 - var(--fly,0)*var(--fly,0))}
+.w-row.is-flying {filter:blur(calc(var(--fly,0)*var(--fly,0)*var(--fly-blur,12px)))}
+.w-year {font-size:var(--fs-micro);white-space:nowrap}
+.w-brand,.w-name {font-size:var(--fs-ui);white-space:nowrap}
+.w-brand {text-decoration:underline;text-underline-offset:.12em}
+.w-desc2 {top:125.8503vw;left:50%;width:38.2993vw;transform:translateX(-50%);font-size:var(--fs-micro);text-align:center;line-height:1.2}
+.runway {height:var(--runway)}
+.js .title__mark {opacity:0;filter:blur(14px)}
+.js .title__tag {opacity:0}
+.js .header a {opacity:0;filter:blur(8px);transform:translateY(12px)}
+.js.is-ready .title__mark {opacity:1;filter:blur(0);transition:opacity 1400ms var(--ease-expo),filter 1400ms var(--ease-expo)}
+.js.is-ready .title__tag {opacity:1;transition:opacity 700ms var(--ease-expo) 380ms}
+.js.is-ready .header a {opacity:1;filter:blur(0);transform:translateY(0);transition:opacity 700ms var(--ease-expo),filter 700ms var(--ease-expo),transform 700ms var(--ease-expo);transition-delay:300ms}
+.js.is-ready .header a:nth-child(2) {transition-delay:360ms}
+.js.is-ready .header a:nth-child(3) {transition-delay:420ms}
+@media (prefers-reduced-motion:reduce) {
+  .exit-3d,.rise,.w-row {transform:none}
+  .exit-3d.is-exiting,.rise.is-anim,.w-row.is-flying,.w-title.is-entering {filter:none}
+  .js .title__mark,.js .header a {filter:none;transform:none}
+  .js.is-ready .title__mark,.js.is-ready .title__tag,.js.is-ready .header a {transition:opacity 200ms linear;transition-delay:0ms}
+  canvas.plate {transition:none}
+}
