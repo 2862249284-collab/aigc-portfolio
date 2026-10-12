@@ -1,0 +1,1008 @@
+[
+  {
+    "projectId": "zongxiang",
+    "title": "AI短片粽香",
+    "category": "AI短片",
+    "episode": null,
+    "file": "/assets/video-covers/zongxiang-main.webp",
+    "sourceEpisode": "zongxiang-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\短片\\粽香\\粽香.mp4",
+    "sourceSha256": "973b12e2974edf3eeeeeccb4bfb4ddbe39ed82146ae4a42fb86e121d7cd77496",
+    "sourceSize": [
+      1920,
+      1080
+    ],
+    "percentage": 40,
+    "seconds": 74.9,
+    "selectionReason": "祖辈包粽子的双人场景，人物清晰，粽叶与食材直接呼应片名。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "AI短片粽香"
+    ],
+    "titleBounds": [
+      [
+        725.0,
+        494.0,
+        1195.0,
+        586.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 169430,
+    "sha256": "ac10f9a5f8fba7af1b73bd5664f533d7b6113910aacf76d87a382638f1a234b2",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "grandpa",
+    "title": "AI短片爷爷",
+    "category": "AI短片",
+    "episode": null,
+    "file": "/assets/video-covers/grandpa-main.webp",
+    "sourceEpisode": "grandpa-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\短片\\AI短片爷爷\\AI短片爷爷.mp4",
+    "sourceSha256": "fd05b10803ca11225a69d0d3a702c8a9c918a0eebb47eea4c3f48ee63aa8994d",
+    "sourceSize": [
+      1910,
+      1080
+    ],
+    "percentage": 20,
+    "seconds": 36.808,
+    "selectionReason": "爷爷的清晰面部特写，情绪明确，背景简洁。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "AI短片爷爷"
+    ],
+    "titleBounds": [
+      [
+        725.0,
+        494.0,
+        1195.0,
+        586.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 80802,
+    "sha256": "759056b26a80563ca7ee9974a4860a2a910502e3f06a4467da70c4f235d4ad41",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "taoyuan",
+    "title": "桃园村长第一季，小酒来也",
+    "category": "AI漫剧",
+    "episode": null,
+    "file": "/assets/video-covers/taoyuan-main.webp",
+    "sourceEpisode": "taoyuan-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\漫剧\\漫剧桃园村长第一季，小酒来也\\漫剧011桃园村长第一季，小酒来也.mp4",
+    "sourceSha256": "bbd7f320f9c64f2afacc5e89b0a88aff629fa8c50486a71e851b20b7797dda73",
+    "sourceSize": [
+      776,
+      432
+    ],
+    "percentage": 40,
+    "seconds": 54.64,
+    "selectionReason": "小酒抓住长辈衣袖的互动，面部完整，乡村背景清晰。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "桃园村长第一季，",
+      "小酒来也"
+    ],
+    "titleBounds": [
+      [
+        591.0,
+        436.5,
+        1329.0,
+        528.5
+      ],
+      [
+        775.0,
+        552.5,
+        1145.0,
+        643.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 89086,
+    "sha256": "2fa3d9bfd1dcb3f440c5c45e52aa2948cf9d7f7cf98712030c88021f73233c0c",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "taoyuan",
+    "title": "桃园村长第一季，小酒来也",
+    "category": "AI漫剧",
+    "episode": 1,
+    "file": "/assets/video-covers/taoyuan-ep01.webp",
+    "sourceEpisode": "taoyuan-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\漫剧\\漫剧桃园村长第一季，小酒来也\\漫剧011桃园村长第一季，小酒来也.mp4",
+    "sourceSha256": "bbd7f320f9c64f2afacc5e89b0a88aff629fa8c50486a71e851b20b7797dda73",
+    "sourceSize": [
+      776,
+      432
+    ],
+    "percentage": 40,
+    "seconds": 54.64,
+    "selectionReason": "小酒抓住长辈衣袖的互动，面部完整，乡村背景清晰。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "桃园村长第一季，",
+      "小酒来也"
+    ],
+    "titleBounds": [
+      [
+        591.0,
+        436.5,
+        1329.0,
+        528.5
+      ],
+      [
+        775.0,
+        552.5,
+        1145.0,
+        643.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 91916,
+    "sha256": "d9aba96bad6d2457294f2e4cdbdac222f0950e48a5da181b54cf3b47593759fb",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "taoyuan",
+    "title": "桃园村长第一季，小酒来也",
+    "category": "AI漫剧",
+    "episode": 2,
+    "file": "/assets/video-covers/taoyuan-ep02.webp",
+    "sourceEpisode": "taoyuan-2",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\漫剧\\漫剧桃园村长第一季，小酒来也\\漫剧012桃园村长第一季，小酒来也.mp4",
+    "sourceSha256": "a677047fee12971fc5125d4c659bb7fcb77e7b6a006fe2e0e2a26aa88f79b14f",
+    "sourceSize": [
+      778,
+      434
+    ],
+    "percentage": 40,
+    "seconds": 57.232,
+    "selectionReason": "小酒与公鸡的夜间互动，主角清晰，区别于第一集的日景。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "桃园村长第一季，",
+      "小酒来也"
+    ],
+    "titleBounds": [
+      [
+        591.0,
+        436.5,
+        1329.0,
+        528.5
+      ],
+      [
+        775.0,
+        552.5,
+        1145.0,
+        643.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 86884,
+    "sha256": "767e763c09471b4282d680ce21bf07a8c12bcf9b8d8b5f9af5d56a35170ea9f6",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "pig-farming",
+    "title": "种田养猪称帝",
+    "category": "AI漫剧",
+    "episode": null,
+    "file": "/assets/video-covers/pig-farming-main.webp",
+    "sourceEpisode": "pig-farming-1",
+    "source": "public/assets/works/pig-farming/video/episode-01.mp4",
+    "sourceSha256": "c0f51d6be80f441d3a00eb924c3930176c6f614e665154799272ebb9cf1b84b4",
+    "sourceSize": [
+      776,
+      436
+    ],
+    "percentage": 20,
+    "seconds": 28.738,
+    "selectionReason": "男主清晰正面形象，村落环境完整，避开局部脸部极近景。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "种田养猪称帝"
+    ],
+    "titleBounds": [
+      [
+        683.0,
+        494.5,
+        1237.0,
+        585.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 78940,
+    "sha256": "b80c97dc8d33149f215e372db1dac31c6adf6ec75675ecd3f0e2829491b4b03d",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "pig-farming",
+    "title": "种田养猪称帝",
+    "category": "AI漫剧",
+    "episode": 1,
+    "file": "/assets/video-covers/pig-farming-ep01.webp",
+    "sourceEpisode": "pig-farming-1",
+    "source": "public/assets/works/pig-farming/video/episode-01.mp4",
+    "sourceSha256": "c0f51d6be80f441d3a00eb924c3930176c6f614e665154799272ebb9cf1b84b4",
+    "sourceSize": [
+      776,
+      436
+    ],
+    "percentage": 20,
+    "seconds": 28.738,
+    "selectionReason": "男主清晰正面形象，村落环境完整，避开局部脸部极近景。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "种田养猪称帝"
+    ],
+    "titleBounds": [
+      [
+        683.0,
+        494.5,
+        1237.0,
+        585.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 82400,
+    "sha256": "c8ae01452de327083a80687c69d189d169b1ccafd26e646c4c9d1bfb5943b5f3",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "pig-farming",
+    "title": "种田养猪称帝",
+    "category": "AI漫剧",
+    "episode": 2,
+    "file": "/assets/video-covers/pig-farming-ep02.webp",
+    "sourceEpisode": "pig-farming-2",
+    "source": "public/assets/works/pig-farming/video/episode-02.mp4",
+    "sourceSha256": "134cf849465e4cd56a16b44a9756199b15e2b8021f471f889f5c9fefb6d21c86",
+    "sourceSize": [
+      778,
+      430
+    ],
+    "percentage": 40,
+    "seconds": 37.16,
+    "selectionReason": "男主与庭院药圃同框，人物与场景完整，与第一集画面不同。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "种田养猪称帝"
+    ],
+    "titleBounds": [
+      [
+        683.0,
+        494.5,
+        1237.0,
+        585.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 115888,
+    "sha256": "585a0a245e0e8c9baf7f8b7c60b3ac86ab8a6ac108e21781336e7320fc4bfb06",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "xiangshan",
+    "title": "香山精神病院",
+    "category": "AI漫剧",
+    "episode": null,
+    "file": "/assets/video-covers/xiangshan-main.webp",
+    "sourceEpisode": "xiangshan-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\香山精神病院\\漫剧021.mp4",
+    "sourceSha256": "c2eb0dc5d545b0c48ed12373e8bff830e15c93f52e8e5a926b3a85bb98c46015",
+    "sourceSize": [
+      1146,
+      640
+    ],
+    "percentage": 40,
+    "seconds": 38.668,
+    "selectionReason": "黑发主角的正面形象清楚，避开怪物局部和纯场景。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "香山精神病院"
+    ],
+    "titleBounds": [
+      [
+        683.0,
+        493.5,
+        1237.0,
+        586.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 70030,
+    "sha256": "b4ea687533d619ac3deef8951c7b5afdbd2319bda09a2c14ad5227b8e37e67be",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "xiangshan",
+    "title": "香山精神病院",
+    "category": "AI漫剧",
+    "episode": 1,
+    "file": "/assets/video-covers/xiangshan-ep01.webp",
+    "sourceEpisode": "xiangshan-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\香山精神病院\\漫剧021.mp4",
+    "sourceSha256": "c2eb0dc5d545b0c48ed12373e8bff830e15c93f52e8e5a926b3a85bb98c46015",
+    "sourceSize": [
+      1146,
+      640
+    ],
+    "percentage": 40,
+    "seconds": 38.668,
+    "selectionReason": "黑发主角的正面形象清楚，避开怪物局部和纯场景。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "香山精神病院"
+    ],
+    "titleBounds": [
+      [
+        683.0,
+        493.5,
+        1237.0,
+        586.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 73840,
+    "sha256": "49c35cd0c5a92c70f960324756fd6c092f5fb0a9b1ada2b373272e0cdb89152b",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "xiangshan",
+    "title": "香山精神病院",
+    "category": "AI漫剧",
+    "episode": 2,
+    "file": "/assets/video-covers/xiangshan-ep02.webp",
+    "sourceEpisode": "xiangshan-2",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\香山精神病院\\漫剧022.mp4",
+    "sourceSha256": "8fd9bdbdede46a76ef61e1a5339cdc760c87879290f844a85d674cffa964d7b7",
+    "sourceSize": [
+      1150,
+      642
+    ],
+    "percentage": 20,
+    "seconds": 21.28,
+    "selectionReason": "同一主角在医院外景中出现，面部完整，与第一集室内画面区分。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "香山精神病院"
+    ],
+    "titleBounds": [
+      [
+        683.0,
+        493.5,
+        1237.0,
+        586.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 82526,
+    "sha256": "cb8ae9d80391e5ddbc7dbfb18621aae43f5b1b331c04e224fa53db241c7e7181",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "white-card",
+    "title": "觉醒无限复制，看我白卡成神",
+    "category": "AI真人",
+    "episode": null,
+    "file": "/assets/video-covers/white-card-main.webp",
+    "sourceEpisode": "white-card-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人觉醒无限复制，看我白卡成神\\真人011觉醒无限复制，看我白卡成神.mp4",
+    "sourceSha256": "fb9a43896e6ef1f1b49f06580e4ed5a39b7b5eff455a05f1175d3678bfba6f05",
+    "sourceSize": [
+      1910,
+      1080
+    ],
+    "percentage": 40,
+    "seconds": 67.68,
+    "selectionReason": "白衣男主侧面中景清晰，避开运动模糊与火焰遮挡。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "觉醒无限复制，",
+      "看我白卡成神"
+    ],
+    "titleBounds": [
+      [
+        637.0,
+        436.5,
+        1283.0,
+        528.5
+      ],
+      [
+        683.0,
+        552.5,
+        1237.0,
+        643.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 68292,
+    "sha256": "08627cb9749a01bb10239076ce85191bb5f8176f2a7396dcec1f88e881f1a375",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "white-card",
+    "title": "觉醒无限复制，看我白卡成神",
+    "category": "AI真人",
+    "episode": 1,
+    "file": "/assets/video-covers/white-card-ep01.webp",
+    "sourceEpisode": "white-card-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人觉醒无限复制，看我白卡成神\\真人011觉醒无限复制，看我白卡成神.mp4",
+    "sourceSha256": "fb9a43896e6ef1f1b49f06580e4ed5a39b7b5eff455a05f1175d3678bfba6f05",
+    "sourceSize": [
+      1910,
+      1080
+    ],
+    "percentage": 40,
+    "seconds": 67.68,
+    "selectionReason": "白衣男主侧面中景清晰，避开运动模糊与火焰遮挡。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "觉醒无限复制，",
+      "看我白卡成神"
+    ],
+    "titleBounds": [
+      [
+        637.0,
+        436.5,
+        1283.0,
+        528.5
+      ],
+      [
+        683.0,
+        552.5,
+        1237.0,
+        643.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 71738,
+    "sha256": "94f0576f7026e20779c1ca83fddbac15326f3450d856833bb79ff5b72a34bcda",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "white-card",
+    "title": "觉醒无限复制，看我白卡成神",
+    "category": "AI真人",
+    "episode": 2,
+    "file": "/assets/video-covers/white-card-ep02.webp",
+    "sourceEpisode": "white-card-2",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人觉醒无限复制，看我白卡成神\\真人012觉醒无限复制，看我白卡成神.mp4",
+    "sourceSha256": "0916df40f3d59c33ce8ea80f717e71f097964e5abfd29115b1d46971f6d7eb0f",
+    "sourceSize": [
+      778,
+      436
+    ],
+    "percentage": 20,
+    "seconds": 18.642,
+    "selectionReason": "男主与悬浮卡牌界面同框，直接表现卡牌能力，面部不被标题遮挡。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "觉醒无限复制，",
+      "看我白卡成神"
+    ],
+    "titleBounds": [
+      [
+        637.0,
+        436.5,
+        1283.0,
+        528.5
+      ],
+      [
+        683.0,
+        552.5,
+        1237.0,
+        643.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 96040,
+    "sha256": "bd304eb16498116f5b137d3f390475438939c34c8ad41f73253df57488f629d4",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "white-wand",
+    "title": "白色魔杖",
+    "category": "AI真人",
+    "episode": null,
+    "file": "/assets/video-covers/white-wand-main.webp",
+    "sourceEpisode": "white-wand-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人白色魔杖\\真人021白色魔杖.mp4",
+    "sourceSha256": "1e2b363bcfacd57754f2fcbec44dbfedaeb1db5a7faaa865850025bcbbcdd744",
+    "sourceSize": [
+      780,
+      438
+    ],
+    "percentage": 80,
+    "seconds": 84.784,
+    "selectionReason": "主要角色与白色魔杖同框，人物完整、魔法学院场景明确。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "白色魔杖"
+    ],
+    "titleBounds": [
+      [
+        775.0,
+        494.0,
+        1145.0,
+        586.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 83114,
+    "sha256": "7e5587cc006285d738c47648b5d29cb44ed0a74f44dea6d62078abf48b8b2993",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "white-wand",
+    "title": "白色魔杖",
+    "category": "AI真人",
+    "episode": 1,
+    "file": "/assets/video-covers/white-wand-ep01.webp",
+    "sourceEpisode": "white-wand-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人白色魔杖\\真人021白色魔杖.mp4",
+    "sourceSha256": "1e2b363bcfacd57754f2fcbec44dbfedaeb1db5a7faaa865850025bcbbcdd744",
+    "sourceSize": [
+      780,
+      438
+    ],
+    "percentage": 80,
+    "seconds": 84.784,
+    "selectionReason": "主要角色与白色魔杖同框，人物完整、魔法学院场景明确。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "白色魔杖"
+    ],
+    "titleBounds": [
+      [
+        775.0,
+        494.0,
+        1145.0,
+        586.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 86686,
+    "sha256": "57272f861c0ee4deb9f6d6d2fe17b01546633ea63422c0704d249cdd0b7a659e",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "white-wand",
+    "title": "白色魔杖",
+    "category": "AI真人",
+    "episode": 2,
+    "file": "/assets/video-covers/white-wand-ep02.webp",
+    "sourceEpisode": "white-wand-2",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人白色魔杖\\真人022白色魔杖.mp4",
+    "sourceSha256": "77849785bad697c25f9224dd2846cd5255bf45315e5a42461752e735f498cb93",
+    "sourceSize": [
+      778,
+      434
+    ],
+    "percentage": 40,
+    "seconds": 39.52,
+    "selectionReason": "女主在蓝色夜景中的清晰特写，与第一集群像形成区分。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "白色魔杖"
+    ],
+    "titleBounds": [
+      [
+        775.0,
+        494.0,
+        1145.0,
+        586.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 65750,
+    "sha256": "0a4f7e519f57d547a6c073ba35f8c1df359846dfcd55e9570dc9eed1bc112d25",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "seventh-element",
+    "title": "THE Seventh Element第七元素",
+    "category": "AI真人",
+    "episode": null,
+    "file": "/assets/video-covers/seventh-element-main.webp",
+    "sourceEpisode": "seventh-element-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\THE Seventh Element第七元素\\真人01.mp4",
+    "sourceSha256": "eb0851395d211fe63bf5aba8c981a40abda840665bc7266ea69147afe92e2a56",
+    "sourceSize": [
+      626,
+      1106
+    ],
+    "percentage": 40,
+    "seconds": 108.36,
+    "selectionReason": "主角与巨龙、熔岩洞窟同框，竖屏构图完整，代表奇幻题材。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "THE Seventh Element",
+      "第七元素"
+    ],
+    "titleBounds": [
+      [
+        464.0,
+        438.5,
+        1456.0,
+        514.5
+      ],
+      [
+        775.0,
+        550.5,
+        1145.0,
+        641.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 82350,
+    "sha256": "22f5b00426203164bf7a59061c17bb197d22c4adc3f353a40d33b102fb062793",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "lies-and-love",
+    "title": "Between Lies and Love谎言与爱之间",
+    "category": "AI真人",
+    "episode": null,
+    "file": "/assets/video-covers/lies-and-love-main.webp",
+    "sourceEpisode": "lies-and-love-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\Between Lies and Love谎言与爱之间\\真人02.mp4",
+    "sourceSha256": "b5ca42e9084971038a661bb56d165230843949d30bdb9854922a0c4f211e5c26",
+    "sourceSize": [
+      622,
+      1104
+    ],
+    "percentage": 20,
+    "seconds": 47.46,
+    "selectionReason": "女主通话情绪与面部清晰，避免人物腿部局部或背影。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "Between Lies and Love",
+      "谎言与爱之间"
+    ],
+    "titleBounds": [
+      [
+        434.5,
+        438.0,
+        1485.5,
+        514.0
+      ],
+      [
+        683.0,
+        550.0,
+        1237.0,
+        642.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 80814,
+    "sha256": "e39e1dce9c38644c02c0a89a01b9bc13d5fb48dc09bb1f7235064ac84a775784",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "ambrosial",
+    "title": "安慕希广告",
+    "category": "TVC",
+    "episode": null,
+    "file": "/assets/video-covers/ambrosial-main.webp",
+    "sourceEpisode": "ambrosial-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\安慕希\\安慕希广告.mp4",
+    "sourceSha256": "2f811beebbf290d0897778087bfd0f9a8b059d59b8381d228ee5341bdfd7a62e",
+    "sourceSize": [
+      1280,
+      720
+    ],
+    "percentage": 80,
+    "seconds": 57.608,
+    "selectionReason": "安慕希产品与人物同框，产品归属明确，原片光线明亮。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "安慕希广告"
+    ],
+    "titleBounds": [
+      [
+        729.0,
+        494.0,
+        1191.0,
+        586.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 81514,
+    "sha256": "69623a7e3f568a7bb03f88f89509a0feb81a31dc2c07f13a0ee5f1320a6f8859",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "bear-cup",
+    "title": "AI小熊水杯",
+    "category": "TVC",
+    "episode": null,
+    "file": "/assets/video-covers/bear-cup-main.webp",
+    "sourceEpisode": "bear-cup-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\杯子\\1787825391405.mp4",
+    "sourceSha256": "a34f7d3471dc61ff00ad1317a9bc41df2bce6abe397eeb245531265875a4251a",
+    "sourceSize": [
+      480,
+      854
+    ],
+    "percentage": 40,
+    "seconds": 4.824,
+    "selectionReason": "水杯产品完整清晰、细节突出，保留原片真实产品图案。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "AI小熊水杯"
+    ],
+    "titleBounds": [
+      [
+        725.0,
+        494.5,
+        1195.0,
+        585.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 51202,
+    "sha256": "0be3bc59defc3b9e38bfe08e6d8f878846b8fe61060eb51891e4669b9836078a",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "soda",
+    "title": "汽水",
+    "category": "TVC",
+    "episode": null,
+    "file": "/assets/video-covers/soda-main.webp",
+    "sourceEpisode": "soda-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\汽水广告\\屏幕录制 2026-10-07 161800.mp4",
+    "sourceSha256": "2ebb8e0a8711f3ccb8d96ccaac30143f58e735222a3902badbb6be443612d60b",
+    "sourceSize": [
+      590,
+      1052
+    ],
+    "percentage": 80,
+    "seconds": 9.784,
+    "selectionReason": "人物、饮料罐与饮品完整同框，避免罐身局部近景。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "汽水"
+    ],
+    "titleBounds": [
+      [
+        867.0,
+        494.5,
+        1053.0,
+        585.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 61524,
+    "sha256": "540b387f6f5c903e18651921246879c9a77f3ceb733e1b2b6fe606aa79c7e8b2",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "outfit",
+    "title": "AI变装",
+    "category": "TVC",
+    "episode": null,
+    "file": "/assets/video-covers/outfit-main.webp",
+    "sourceEpisode": "outfit-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\变装\\变装.mp4",
+    "sourceSha256": "486ea76b36545dbb4c6f16cae9104dd0bfd9efb6f8ea65352dc3f9516c080980",
+    "sourceSize": [
+      496,
+      864
+    ],
+    "percentage": 80,
+    "seconds": 9.68,
+    "selectionReason": "完整穿搭与配色素材同框，人物头脚完整，服饰层次清楚。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "AI变装"
+    ],
+    "titleBounds": [
+      [
+        817.0,
+        494.0,
+        1103.0,
+        586.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 58160,
+    "sha256": "22bcff9ad02467c79f13b2b41b2c83779974c581ddadc555c8289731ec8a7443",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "game-promo",
+    "title": "游戏推广",
+    "category": "游戏",
+    "episode": null,
+    "file": "/assets/video-covers/game-promo-main.webp",
+    "sourceEpisode": "game-promo-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\游戏推广\\游戏推广.mp4",
+    "sourceSha256": "ff4d1b95446ca22baf2affc7a3353e44109050be665ab2a5c69cbc62658a973c",
+    "sourceSize": [
+      742,
+      928
+    ],
+    "percentage": 40,
+    "seconds": 18.884,
+    "selectionReason": "红裙角色全身与原游戏界面同框，直接呈现游戏广告内容。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "游戏推广"
+    ],
+    "titleBounds": [
+      [
+        775.0,
+        493.5,
+        1145.0,
+        586.5
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 86960,
+    "sha256": "2b814c2ed736225d3d517308e587d848dd6ec0869bcf72a16b8b1d1c89208091",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  },
+  {
+    "projectId": "sword-legend",
+    "title": "仙剑奇侠传",
+    "category": "游戏",
+    "episode": null,
+    "file": "/assets/video-covers/sword-legend-main.webp",
+    "sourceEpisode": "sword-legend-1",
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\仙剑奇侠传\\仙剑奇侠传.mp4",
+    "sourceSha256": "de513e21aacf223b6b45a563dd1cbc9ee854a1df95ce88cbb136cf578f814104",
+    "sourceSize": [
+      1276,
+      720
+    ],
+    "percentage": 20,
+    "seconds": 55.088,
+    "selectionReason": "古装少年在山野场景的清晰正面画面，避开空镜和模糊表情。",
+    "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
+    "titleLines": [
+      "仙剑奇侠传"
+    ],
+    "titleBounds": [
+      [
+        729.0,
+        494.0,
+        1191.0,
+        586.0
+      ]
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "colorSpace": "sRGB",
+    "quality": 88,
+    "bytes": 119704,
+    "sha256": "81aa338f1f58063bc315fe86bc066bc5c077750bcccdaa61743dcbf9664749af",
+    "status": "完成：本地原片提帧，已人工比较四张候选"
+  }
+]

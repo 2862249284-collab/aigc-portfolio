@@ -13,3 +13,17 @@
 
 
 .short-film-player video{display:block;width:100%;height:100%;object-fit:contain}.short-film-actions button{background:none;border:0;color:inherit;font:inherit;cursor:pointer}.film-playback-error{position:absolute;bottom:0;left:0;right:0;padding:12px;background:#101116e8;font-size:12px;text-align:center}
+
+/* Covers are consistently 16:9; playback restores the original video ratio. */
+.short-film-player-wrap{width:min(960px,90vw,calc((100dvh - 320px)*1.7778))}
+.short-film-player{aspect-ratio:16/9}
+.short-film-player-wrap:has(video,iframe){width:min(850px,78vw,calc((100dvh - 355px)*var(--film-ratio)))}
+.short-film-player:has(video,iframe){aspect-ratio:var(--film-ratio)}
+.short-film-load img{display:block;transition:transform .45s ease}
+.short-film-load:hover img{transform:scale(1.03)}
+@media(max-width:760px){.short-film-player-wrap{width:100%}.short-film-player-wrap:has(video,iframe){width:min(100%,850px,calc((100dvh - 280px)*var(--film-ratio)))}}
+@media(prefers-reduced-motion:reduce){.short-film-load img{transition:none}.short-film-load:hover img{transform:none}}
+
+/* Playback controls sit below the centered cover title. */
+.short-film-load>span{top:auto;bottom:22px;transform:translateX(-50%)}
+@media(max-width:760px){.short-film-load>span{bottom:10px;padding:8px 12px;font-size:11px}}

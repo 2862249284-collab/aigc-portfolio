@@ -1,5 +1,6 @@
+import {videoCovers} from './video-covers.js';
 // Curated local assets and Bilibili episodes. Xiaohongshu links live in xiaohongshu.js.
-export const videoProjects = [
+const originalVideoProjects = [
   {
     "id": "zongxiang",
     "title": "AI短片粽香",
@@ -1206,3 +1207,9 @@ export const videoProjects = [
     ]
   }
 ];
+
+// Preserve original media, metadata and asset records; replace only cover bindings.
+export const videoProjects = originalVideoProjects.map(work=>{
+ const covers=videoCovers[work.id];
+ return {...work,cover:covers?.cover||work.cover,episodes:work.episodes.map(ep=>({...ep,cover:covers?.episodes[ep.id]||ep.cover}))};
+});

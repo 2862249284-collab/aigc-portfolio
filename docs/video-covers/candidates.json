@@ -1,0 +1,742 @@
+[
+  {
+    "projectId": "zongxiang",
+    "episodeId": "zongxiang-1",
+    "duration": 187.25,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\短片\\粽香\\粽香.mp4",
+    "sourceSha256": "973b12e2974edf3eeeeeccb4bfb4ddbe39ed82146ae4a42fb86e121d7cd77496",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 37.45,
+        "path": ".tools/cover-candidates/zongxiang-1-20.png",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "percentage": 40,
+        "seconds": 74.9,
+        "path": ".tools/cover-candidates/zongxiang-1-40.png",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "percentage": 60,
+        "seconds": 112.35,
+        "path": ".tools/cover-candidates/zongxiang-1-60.png",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "percentage": 80,
+        "seconds": 149.8,
+        "path": ".tools/cover-candidates/zongxiang-1-80.png",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "projectId": "grandpa",
+    "episodeId": "grandpa-1",
+    "duration": 184.04,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\短片\\AI短片爷爷\\AI短片爷爷.mp4",
+    "sourceSha256": "fd05b10803ca11225a69d0d3a702c8a9c918a0eebb47eea4c3f48ee63aa8994d",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 36.808,
+        "path": ".tools/cover-candidates/grandpa-1-20.png",
+        "width": 1910,
+        "height": 1080
+      },
+      {
+        "percentage": 40,
+        "seconds": 73.616,
+        "path": ".tools/cover-candidates/grandpa-1-40.png",
+        "width": 1910,
+        "height": 1080
+      },
+      {
+        "percentage": 60,
+        "seconds": 110.424,
+        "path": ".tools/cover-candidates/grandpa-1-60.png",
+        "width": 1910,
+        "height": 1080
+      },
+      {
+        "percentage": 80,
+        "seconds": 147.232,
+        "path": ".tools/cover-candidates/grandpa-1-80.png",
+        "width": 1910,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "projectId": "taoyuan",
+    "episodeId": "taoyuan-1",
+    "duration": 136.6,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\漫剧\\漫剧桃园村长第一季，小酒来也\\漫剧011桃园村长第一季，小酒来也.mp4",
+    "sourceSha256": "bbd7f320f9c64f2afacc5e89b0a88aff629fa8c50486a71e851b20b7797dda73",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 27.32,
+        "path": ".tools/cover-candidates/taoyuan-1-20.png",
+        "width": 776,
+        "height": 432
+      },
+      {
+        "percentage": 40,
+        "seconds": 54.64,
+        "path": ".tools/cover-candidates/taoyuan-1-40.png",
+        "width": 776,
+        "height": 432
+      },
+      {
+        "percentage": 60,
+        "seconds": 81.96,
+        "path": ".tools/cover-candidates/taoyuan-1-60.png",
+        "width": 776,
+        "height": 432
+      },
+      {
+        "percentage": 80,
+        "seconds": 109.28,
+        "path": ".tools/cover-candidates/taoyuan-1-80.png",
+        "width": 776,
+        "height": 432
+      }
+    ]
+  },
+  {
+    "projectId": "taoyuan",
+    "episodeId": "taoyuan-2",
+    "duration": 143.07999999999998,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\漫剧\\漫剧桃园村长第一季，小酒来也\\漫剧012桃园村长第一季，小酒来也.mp4",
+    "sourceSha256": "a677047fee12971fc5125d4c659bb7fcb77e7b6a006fe2e0e2a26aa88f79b14f",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 28.616,
+        "path": ".tools/cover-candidates/taoyuan-2-20.png",
+        "width": 778,
+        "height": 434
+      },
+      {
+        "percentage": 40,
+        "seconds": 57.232,
+        "path": ".tools/cover-candidates/taoyuan-2-40.png",
+        "width": 778,
+        "height": 434
+      },
+      {
+        "percentage": 60,
+        "seconds": 85.848,
+        "path": ".tools/cover-candidates/taoyuan-2-60.png",
+        "width": 778,
+        "height": 434
+      },
+      {
+        "percentage": 80,
+        "seconds": 114.464,
+        "path": ".tools/cover-candidates/taoyuan-2-80.png",
+        "width": 778,
+        "height": 434
+      }
+    ]
+  },
+  {
+    "projectId": "pig-farming",
+    "episodeId": "pig-farming-1",
+    "duration": 143.69,
+    "source": "public/assets/works/pig-farming/video/episode-01.mp4",
+    "sourceSha256": "c0f51d6be80f441d3a00eb924c3930176c6f614e665154799272ebb9cf1b84b4",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 28.738,
+        "path": ".tools/cover-candidates/pig-farming-1-20.png",
+        "width": 776,
+        "height": 436
+      },
+      {
+        "percentage": 40,
+        "seconds": 57.476,
+        "path": ".tools/cover-candidates/pig-farming-1-40.png",
+        "width": 776,
+        "height": 436
+      },
+      {
+        "percentage": 60,
+        "seconds": 86.214,
+        "path": ".tools/cover-candidates/pig-farming-1-60.png",
+        "width": 776,
+        "height": 436
+      },
+      {
+        "percentage": 80,
+        "seconds": 114.952,
+        "path": ".tools/cover-candidates/pig-farming-1-80.png",
+        "width": 776,
+        "height": 436
+      }
+    ]
+  },
+  {
+    "projectId": "pig-farming",
+    "episodeId": "pig-farming-2",
+    "duration": 92.9,
+    "source": "public/assets/works/pig-farming/video/episode-02.mp4",
+    "sourceSha256": "134cf849465e4cd56a16b44a9756199b15e2b8021f471f889f5c9fefb6d21c86",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 18.58,
+        "path": ".tools/cover-candidates/pig-farming-2-20.png",
+        "width": 778,
+        "height": 430
+      },
+      {
+        "percentage": 40,
+        "seconds": 37.16,
+        "path": ".tools/cover-candidates/pig-farming-2-40.png",
+        "width": 778,
+        "height": 430
+      },
+      {
+        "percentage": 60,
+        "seconds": 55.74,
+        "path": ".tools/cover-candidates/pig-farming-2-60.png",
+        "width": 778,
+        "height": 430
+      },
+      {
+        "percentage": 80,
+        "seconds": 74.32,
+        "path": ".tools/cover-candidates/pig-farming-2-80.png",
+        "width": 778,
+        "height": 430
+      }
+    ]
+  },
+  {
+    "projectId": "xiangshan",
+    "episodeId": "xiangshan-1",
+    "duration": 96.67,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\香山精神病院\\漫剧021.mp4",
+    "sourceSha256": "c2eb0dc5d545b0c48ed12373e8bff830e15c93f52e8e5a926b3a85bb98c46015",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 19.334,
+        "path": ".tools/cover-candidates/xiangshan-1-20.png",
+        "width": 1146,
+        "height": 640
+      },
+      {
+        "percentage": 40,
+        "seconds": 38.668,
+        "path": ".tools/cover-candidates/xiangshan-1-40.png",
+        "width": 1146,
+        "height": 640
+      },
+      {
+        "percentage": 60,
+        "seconds": 58.002,
+        "path": ".tools/cover-candidates/xiangshan-1-60.png",
+        "width": 1146,
+        "height": 640
+      },
+      {
+        "percentage": 80,
+        "seconds": 77.336,
+        "path": ".tools/cover-candidates/xiangshan-1-80.png",
+        "width": 1146,
+        "height": 640
+      }
+    ]
+  },
+  {
+    "projectId": "xiangshan",
+    "episodeId": "xiangshan-2",
+    "duration": 106.4,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\香山精神病院\\漫剧022.mp4",
+    "sourceSha256": "8fd9bdbdede46a76ef61e1a5339cdc760c87879290f844a85d674cffa964d7b7",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 21.28,
+        "path": ".tools/cover-candidates/xiangshan-2-20.png",
+        "width": 1150,
+        "height": 642
+      },
+      {
+        "percentage": 40,
+        "seconds": 42.56,
+        "path": ".tools/cover-candidates/xiangshan-2-40.png",
+        "width": 1150,
+        "height": 642
+      },
+      {
+        "percentage": 60,
+        "seconds": 63.84,
+        "path": ".tools/cover-candidates/xiangshan-2-60.png",
+        "width": 1150,
+        "height": 642
+      },
+      {
+        "percentage": 80,
+        "seconds": 85.12,
+        "path": ".tools/cover-candidates/xiangshan-2-80.png",
+        "width": 1150,
+        "height": 642
+      }
+    ]
+  },
+  {
+    "projectId": "white-card",
+    "episodeId": "white-card-1",
+    "duration": 169.2,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人觉醒无限复制，看我白卡成神\\真人011觉醒无限复制，看我白卡成神.mp4",
+    "sourceSha256": "fb9a43896e6ef1f1b49f06580e4ed5a39b7b5eff455a05f1175d3678bfba6f05",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 33.84,
+        "path": ".tools/cover-candidates/white-card-1-20.png",
+        "width": 1910,
+        "height": 1080
+      },
+      {
+        "percentage": 40,
+        "seconds": 67.68,
+        "path": ".tools/cover-candidates/white-card-1-40.png",
+        "width": 1910,
+        "height": 1080
+      },
+      {
+        "percentage": 60,
+        "seconds": 101.52,
+        "path": ".tools/cover-candidates/white-card-1-60.png",
+        "width": 1910,
+        "height": 1080
+      },
+      {
+        "percentage": 80,
+        "seconds": 135.36,
+        "path": ".tools/cover-candidates/white-card-1-80.png",
+        "width": 1910,
+        "height": 1080
+      }
+    ]
+  },
+  {
+    "projectId": "white-card",
+    "episodeId": "white-card-2",
+    "duration": 93.21000000000001,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人觉醒无限复制，看我白卡成神\\真人012觉醒无限复制，看我白卡成神.mp4",
+    "sourceSha256": "0916df40f3d59c33ce8ea80f717e71f097964e5abfd29115b1d46971f6d7eb0f",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 18.642,
+        "path": ".tools/cover-candidates/white-card-2-20.png",
+        "width": 778,
+        "height": 436
+      },
+      {
+        "percentage": 40,
+        "seconds": 37.284,
+        "path": ".tools/cover-candidates/white-card-2-40.png",
+        "width": 778,
+        "height": 436
+      },
+      {
+        "percentage": 60,
+        "seconds": 55.926,
+        "path": ".tools/cover-candidates/white-card-2-60.png",
+        "width": 778,
+        "height": 436
+      },
+      {
+        "percentage": 80,
+        "seconds": 74.568,
+        "path": ".tools/cover-candidates/white-card-2-80.png",
+        "width": 778,
+        "height": 436
+      }
+    ]
+  },
+  {
+    "projectId": "white-wand",
+    "episodeId": "white-wand-1",
+    "duration": 105.97999999999999,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人白色魔杖\\真人021白色魔杖.mp4",
+    "sourceSha256": "1e2b363bcfacd57754f2fcbec44dbfedaeb1db5a7faaa865850025bcbbcdd744",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 21.196,
+        "path": ".tools/cover-candidates/white-wand-1-20.png",
+        "width": 780,
+        "height": 438
+      },
+      {
+        "percentage": 40,
+        "seconds": 42.392,
+        "path": ".tools/cover-candidates/white-wand-1-40.png",
+        "width": 780,
+        "height": 438
+      },
+      {
+        "percentage": 60,
+        "seconds": 63.588,
+        "path": ".tools/cover-candidates/white-wand-1-60.png",
+        "width": 780,
+        "height": 438
+      },
+      {
+        "percentage": 80,
+        "seconds": 84.784,
+        "path": ".tools/cover-candidates/white-wand-1-80.png",
+        "width": 780,
+        "height": 438
+      }
+    ]
+  },
+  {
+    "projectId": "white-wand",
+    "episodeId": "white-wand-2",
+    "duration": 98.8,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人白色魔杖\\真人022白色魔杖.mp4",
+    "sourceSha256": "77849785bad697c25f9224dd2846cd5255bf45315e5a42461752e735f498cb93",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 19.76,
+        "path": ".tools/cover-candidates/white-wand-2-20.png",
+        "width": 778,
+        "height": 434
+      },
+      {
+        "percentage": 40,
+        "seconds": 39.52,
+        "path": ".tools/cover-candidates/white-wand-2-40.png",
+        "width": 778,
+        "height": 434
+      },
+      {
+        "percentage": 60,
+        "seconds": 59.28,
+        "path": ".tools/cover-candidates/white-wand-2-60.png",
+        "width": 778,
+        "height": 434
+      },
+      {
+        "percentage": 80,
+        "seconds": 79.04,
+        "path": ".tools/cover-candidates/white-wand-2-80.png",
+        "width": 778,
+        "height": 434
+      }
+    ]
+  },
+  {
+    "projectId": "seventh-element",
+    "episodeId": "seventh-element-1",
+    "duration": 270.9,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\THE Seventh Element第七元素\\真人01.mp4",
+    "sourceSha256": "eb0851395d211fe63bf5aba8c981a40abda840665bc7266ea69147afe92e2a56",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 54.18,
+        "path": ".tools/cover-candidates/seventh-element-1-20.png",
+        "width": 626,
+        "height": 1106
+      },
+      {
+        "percentage": 40,
+        "seconds": 108.36,
+        "path": ".tools/cover-candidates/seventh-element-1-40.png",
+        "width": 626,
+        "height": 1106
+      },
+      {
+        "percentage": 60,
+        "seconds": 162.54,
+        "path": ".tools/cover-candidates/seventh-element-1-60.png",
+        "width": 626,
+        "height": 1106
+      },
+      {
+        "percentage": 80,
+        "seconds": 216.72,
+        "path": ".tools/cover-candidates/seventh-element-1-80.png",
+        "width": 626,
+        "height": 1106
+      }
+    ]
+  },
+  {
+    "projectId": "lies-and-love",
+    "episodeId": "lies-and-love-1",
+    "duration": 237.3,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\Between Lies and Love谎言与爱之间\\真人02.mp4",
+    "sourceSha256": "b5ca42e9084971038a661bb56d165230843949d30bdb9854922a0c4f211e5c26",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 47.46,
+        "path": ".tools/cover-candidates/lies-and-love-1-20.png",
+        "width": 622,
+        "height": 1104
+      },
+      {
+        "percentage": 40,
+        "seconds": 94.92,
+        "path": ".tools/cover-candidates/lies-and-love-1-40.png",
+        "width": 622,
+        "height": 1104
+      },
+      {
+        "percentage": 60,
+        "seconds": 142.38,
+        "path": ".tools/cover-candidates/lies-and-love-1-60.png",
+        "width": 622,
+        "height": 1104
+      },
+      {
+        "percentage": 80,
+        "seconds": 189.84,
+        "path": ".tools/cover-candidates/lies-and-love-1-80.png",
+        "width": 622,
+        "height": 1104
+      }
+    ]
+  },
+  {
+    "projectId": "ambrosial",
+    "episodeId": "ambrosial-1",
+    "duration": 72.01,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\安慕希\\安慕希广告.mp4",
+    "sourceSha256": "2f811beebbf290d0897778087bfd0f9a8b059d59b8381d228ee5341bdfd7a62e",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 14.402,
+        "path": ".tools/cover-candidates/ambrosial-1-20.png",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "percentage": 40,
+        "seconds": 28.804,
+        "path": ".tools/cover-candidates/ambrosial-1-40.png",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "percentage": 60,
+        "seconds": 43.206,
+        "path": ".tools/cover-candidates/ambrosial-1-60.png",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "percentage": 80,
+        "seconds": 57.608,
+        "path": ".tools/cover-candidates/ambrosial-1-80.png",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "projectId": "bear-cup",
+    "episodeId": "bear-cup-1",
+    "duration": 12.06,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\杯子\\1787825391405.mp4",
+    "sourceSha256": "a34f7d3471dc61ff00ad1317a9bc41df2bce6abe397eeb245531265875a4251a",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 2.412,
+        "path": ".tools/cover-candidates/bear-cup-1-20.png",
+        "width": 480,
+        "height": 854
+      },
+      {
+        "percentage": 40,
+        "seconds": 4.824,
+        "path": ".tools/cover-candidates/bear-cup-1-40.png",
+        "width": 480,
+        "height": 854
+      },
+      {
+        "percentage": 60,
+        "seconds": 7.236,
+        "path": ".tools/cover-candidates/bear-cup-1-60.png",
+        "width": 480,
+        "height": 854
+      },
+      {
+        "percentage": 80,
+        "seconds": 9.648,
+        "path": ".tools/cover-candidates/bear-cup-1-80.png",
+        "width": 480,
+        "height": 854
+      }
+    ]
+  },
+  {
+    "projectId": "soda",
+    "episodeId": "soda-1",
+    "duration": 12.23,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\汽水广告\\屏幕录制 2026-10-07 161800.mp4",
+    "sourceSha256": "2ebb8e0a8711f3ccb8d96ccaac30143f58e735222a3902badbb6be443612d60b",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 2.446,
+        "path": ".tools/cover-candidates/soda-1-20.png",
+        "width": 590,
+        "height": 1052
+      },
+      {
+        "percentage": 40,
+        "seconds": 4.892,
+        "path": ".tools/cover-candidates/soda-1-40.png",
+        "width": 590,
+        "height": 1052
+      },
+      {
+        "percentage": 60,
+        "seconds": 7.338,
+        "path": ".tools/cover-candidates/soda-1-60.png",
+        "width": 590,
+        "height": 1052
+      },
+      {
+        "percentage": 80,
+        "seconds": 9.784,
+        "path": ".tools/cover-candidates/soda-1-80.png",
+        "width": 590,
+        "height": 1052
+      }
+    ]
+  },
+  {
+    "projectId": "outfit",
+    "episodeId": "outfit-1",
+    "duration": 12.1,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\变装\\变装.mp4",
+    "sourceSha256": "486ea76b36545dbb4c6f16cae9104dd0bfd9efb6f8ea65352dc3f9516c080980",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 2.42,
+        "path": ".tools/cover-candidates/outfit-1-20.png",
+        "width": 496,
+        "height": 864
+      },
+      {
+        "percentage": 40,
+        "seconds": 4.84,
+        "path": ".tools/cover-candidates/outfit-1-40.png",
+        "width": 496,
+        "height": 864
+      },
+      {
+        "percentage": 60,
+        "seconds": 7.26,
+        "path": ".tools/cover-candidates/outfit-1-60.png",
+        "width": 496,
+        "height": 864
+      },
+      {
+        "percentage": 80,
+        "seconds": 9.68,
+        "path": ".tools/cover-candidates/outfit-1-80.png",
+        "width": 496,
+        "height": 864
+      }
+    ]
+  },
+  {
+    "projectId": "game-promo",
+    "episodeId": "game-promo-1",
+    "duration": 47.21,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\游戏推广\\游戏推广.mp4",
+    "sourceSha256": "ff4d1b95446ca22baf2affc7a3353e44109050be665ab2a5c69cbc62658a973c",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 9.442,
+        "path": ".tools/cover-candidates/game-promo-1-20.png",
+        "width": 742,
+        "height": 928
+      },
+      {
+        "percentage": 40,
+        "seconds": 18.884,
+        "path": ".tools/cover-candidates/game-promo-1-40.png",
+        "width": 742,
+        "height": 928
+      },
+      {
+        "percentage": 60,
+        "seconds": 28.326,
+        "path": ".tools/cover-candidates/game-promo-1-60.png",
+        "width": 742,
+        "height": 928
+      },
+      {
+        "percentage": 80,
+        "seconds": 37.768,
+        "path": ".tools/cover-candidates/game-promo-1-80.png",
+        "width": 742,
+        "height": 928
+      }
+    ]
+  },
+  {
+    "projectId": "sword-legend",
+    "episodeId": "sword-legend-1",
+    "duration": 275.44,
+    "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\仙剑奇侠传\\仙剑奇侠传.mp4",
+    "sourceSha256": "de513e21aacf223b6b45a563dd1cbc9ee854a1df95ce88cbb136cf578f814104",
+    "candidates": [
+      {
+        "percentage": 20,
+        "seconds": 55.088,
+        "path": ".tools/cover-candidates/sword-legend-1-20.png",
+        "width": 1276,
+        "height": 720
+      },
+      {
+        "percentage": 40,
+        "seconds": 110.176,
+        "path": ".tools/cover-candidates/sword-legend-1-40.png",
+        "width": 1276,
+        "height": 720
+      },
+      {
+        "percentage": 60,
+        "seconds": 165.264,
+        "path": ".tools/cover-candidates/sword-legend-1-60.png",
+        "width": 1276,
+        "height": 720
+      },
+      {
+        "percentage": 80,
+        "seconds": 220.352,
+        "path": ".tools/cover-candidates/sword-legend-1-80.png",
+        "width": 1276,
+        "height": 720
+      }
+    ]
+  }
+]

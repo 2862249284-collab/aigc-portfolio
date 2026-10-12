@@ -7,7 +7,7 @@
 .work-cover-caption strong{font-size:clamp(12px,1.25vw,21px);font-weight:500;line-height:1.5}
 .work-cover-caption>span{font-size:11px;white-space:nowrap;opacity:.65}
 .work-cover-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border:1px solid #ffffff88;border-radius:50%;background:#1117;display:grid;place-items:center;font-size:24px;opacity:0;transition:opacity .25s;pointer-events:none}
-.video-carousel .poster-slide[data-offset="0"]:is(:hover,:focus-visible) .work-cover-image img{transform:scale(1.025)}
+.video-carousel .poster-slide[data-offset="0"]:is(:hover,:focus-visible) .work-cover-image img{transform:scale(1.03)}
 .video-carousel .poster-slide[data-offset="0"]:is(:hover,:focus-visible) .work-cover-play{opacity:1}
 @media(max-width:760px){.work-cover-caption{display:block;padding-top:8px;min-height:58px}.work-cover-caption>span{display:block;margin-top:3px;font-size:9px}.work-cover-play{width:32px;height:32px;font-size:18px}}
 @media(prefers-reduced-motion:reduce){.video-carousel .work-cover-image img,.work-cover-play{transition:none}.video-carousel .poster-slide[data-offset="0"]:hover .work-cover-image img{transform:none}}
@@ -17,3 +17,12 @@
 @media(max-width:760px){.is-poster-gallery .video-carousel{--banner-width:min(72vw,calc((100dvh - 300px)*1.7778));--video-gap:20px}}
 
 .work-cover-episode{display:block;font-size:.7em;font-weight:400;letter-spacing:.1em;opacity:.7;margin-top:4px}.short-film-player-wrap .work-cover-caption{text-align:left;padding:13px 0}.work-cover-caption strong{overflow-wrap:anywhere}
+
+/* Keep the image title accessible without repeating its baked-in typography. */
+.video-carousel .work-cover-caption{position:absolute;width:1px;height:1px;min-height:0;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.video-carousel .poster-slide:is(:hover,:focus-visible) .work-cover-image img{transform:scale(1.03)}
+@media(prefers-reduced-motion:reduce){.video-carousel .poster-slide:is(:hover,:focus-visible) .work-cover-image img{transform:none}}
+
+/* Keep the hover icon clear of the centered image title. */
+.work-cover-play{left:20px;top:20px;transform:none}
+@media(max-width:760px){body.is-poster-gallery .gallery-carousel.video-carousel{--banner-width:min(78vw,calc((100dvh - 300px)*1.7778));--video-gap:20px}}

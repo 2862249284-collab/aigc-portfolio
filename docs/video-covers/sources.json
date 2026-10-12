@@ -1,0 +1,282 @@
+[
+  {
+    "id": "zongxiang",
+    "title": "AI短片粽香",
+    "category": "short-film",
+    "cover": "/assets/works/video-assets/zongxiang-1.jpg",
+    "episodes": [
+      {
+        "id": "zongxiang-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\短片\\粽香\\粽香.mp4",
+        "previousCover": "/assets/works/video-assets/zongxiang-1.jpg",
+        "bilibili": "BV1Copv6hEKQ",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "grandpa",
+    "title": "AI短片爷爷",
+    "category": "short-film",
+    "cover": "/assets/works/video-assets/grandpa-1.jpg",
+    "episodes": [
+      {
+        "id": "grandpa-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\短片\\AI短片爷爷\\AI短片爷爷.mp4",
+        "previousCover": "/assets/works/video-assets/grandpa-1.jpg",
+        "bilibili": "BV1wfpv6FEPx",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "taoyuan",
+    "title": "桃园村长第一季，小酒来也",
+    "category": "comic-drama",
+    "cover": "/assets/works/video-assets/taoyuan-1.jpg",
+    "episodes": [
+      {
+        "id": "taoyuan-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\漫剧\\漫剧桃园村长第一季，小酒来也\\漫剧011桃园村长第一季，小酒来也.mp4",
+        "previousCover": "/assets/works/video-assets/taoyuan-1.jpg",
+        "bilibili": "BV1Adpv6wEaY",
+        "watchURL": null
+      },
+      {
+        "id": "taoyuan-2",
+        "number": 2,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\漫剧\\漫剧桃园村长第一季，小酒来也\\漫剧012桃园村长第一季，小酒来也.mp4",
+        "previousCover": "/assets/works/video-assets/taoyuan-2.jpg",
+        "bilibili": "BV1Adpv6wEqj",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "pig-farming",
+    "title": "种田养猪称帝",
+    "category": "comic-drama",
+    "cover": "/assets/works/video-assets/pig-farming-1.jpg",
+    "episodes": [
+      {
+        "id": "pig-farming-1",
+        "number": 1,
+        "source": "public/assets/works/pig-farming/video/episode-01.mp4",
+        "previousCover": "/assets/works/video-assets/pig-farming-1.jpg",
+        "bilibili": null,
+        "watchURL": "https://www.xiaohongshu.com/explore/6acc347f0000000018006f3e"
+      },
+      {
+        "id": "pig-farming-2",
+        "number": 2,
+        "source": "public/assets/works/pig-farming/video/episode-02.mp4",
+        "previousCover": "/assets/works/video-assets/pig-farming-2.jpg",
+        "bilibili": null,
+        "watchURL": "https://www.xiaohongshu.com/explore/6acc351c000000001402d0be"
+      }
+    ]
+  },
+  {
+    "id": "xiangshan",
+    "title": "香山精神病院",
+    "category": "comic-drama",
+    "cover": "/assets/works/video-assets/xiangshan-1.jpg",
+    "episodes": [
+      {
+        "id": "xiangshan-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\香山精神病院\\漫剧021.mp4",
+        "previousCover": "/assets/works/video-assets/xiangshan-1.jpg",
+        "bilibili": "BV1wfpv6FE5p",
+        "watchURL": null
+      },
+      {
+        "id": "xiangshan-2",
+        "number": 2,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\香山精神病院\\漫剧022.mp4",
+        "previousCover": "/assets/works/video-assets/xiangshan-2.jpg",
+        "bilibili": "BV1wfpv6FEpX",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "white-card",
+    "title": "觉醒无限复制，看我白卡成神",
+    "category": "ai-live-action",
+    "cover": "/assets/works/video-assets/white-card-1.jpg",
+    "episodes": [
+      {
+        "id": "white-card-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人觉醒无限复制，看我白卡成神\\真人011觉醒无限复制，看我白卡成神.mp4",
+        "previousCover": "/assets/works/video-assets/white-card-1.jpg",
+        "bilibili": "BV1W9pv6YEd6",
+        "watchURL": null
+      },
+      {
+        "id": "white-card-2",
+        "number": 2,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人觉醒无限复制，看我白卡成神\\真人012觉醒无限复制，看我白卡成神.mp4",
+        "previousCover": "/assets/works/video-assets/white-card-2.jpg",
+        "bilibili": "BV1P9pv6YEWy",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "white-wand",
+    "title": "白色魔杖",
+    "category": "ai-live-action",
+    "cover": "/assets/works/video-assets/white-wand-1.jpg",
+    "episodes": [
+      {
+        "id": "white-wand-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人白色魔杖\\真人021白色魔杖.mp4",
+        "previousCover": "/assets/works/video-assets/white-wand-1.jpg",
+        "bilibili": "BV1P9pv6YE85",
+        "watchURL": null
+      },
+      {
+        "id": "white-wand-2",
+        "number": 2,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\真人\\真人白色魔杖\\真人022白色魔杖.mp4",
+        "previousCover": "/assets/works/video-assets/white-wand-2.jpg",
+        "bilibili": "BV1P9pv6YEYM",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "seventh-element",
+    "title": "THE Seventh Element第七元素",
+    "category": "ai-live-action",
+    "cover": "/assets/works/video-assets/seventh-element-1.jpg",
+    "episodes": [
+      {
+        "id": "seventh-element-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\THE Seventh Element第七元素\\真人01.mp4",
+        "previousCover": "/assets/works/video-assets/seventh-element-1.jpg",
+        "bilibili": "BV1wfpv6FEKv",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "lies-and-love",
+    "title": "Between Lies and Love谎言与爱之间",
+    "category": "ai-live-action",
+    "cover": "/assets/works/video-assets/lies-and-love-1.jpg",
+    "episodes": [
+      {
+        "id": "lies-and-love-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\出海\\Between Lies and Love谎言与爱之间\\真人02.mp4",
+        "previousCover": "/assets/works/video-assets/lies-and-love-1.jpg",
+        "bilibili": "BV1wfpv6FEMp",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "ambrosial",
+    "title": "安慕希广告",
+    "category": "tvc",
+    "cover": "/assets/works/video-assets/ambrosial-1.jpg",
+    "episodes": [
+      {
+        "id": "ambrosial-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\安慕希\\安慕希广告.mp4",
+        "previousCover": "/assets/works/video-assets/ambrosial-1.jpg",
+        "bilibili": "BV1popv6hE3M",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "bear-cup",
+    "title": "AI小熊水杯",
+    "category": "tvc",
+    "cover": "/assets/works/video-assets/bear-cup-1.jpg",
+    "episodes": [
+      {
+        "id": "bear-cup-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\杯子\\1787825391405.mp4",
+        "previousCover": "/assets/works/video-assets/bear-cup-1.jpg",
+        "bilibili": "BV1Aopv6aEji",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "soda",
+    "title": "汽水",
+    "category": "tvc",
+    "cover": "/assets/works/video-assets/soda-1.jpg",
+    "episodes": [
+      {
+        "id": "soda-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\汽水广告\\屏幕录制 2026-10-07 161800.mp4",
+        "previousCover": "/assets/works/video-assets/soda-1.jpg",
+        "bilibili": "BV1popv6hEiG",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "outfit",
+    "title": "AI变装",
+    "category": "tvc",
+    "cover": "/assets/works/video-assets/outfit-1.jpg",
+    "episodes": [
+      {
+        "id": "outfit-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\变装\\变装.mp4",
+        "previousCover": "/assets/works/video-assets/outfit-1.jpg",
+        "bilibili": "BV1Aopv6hEKr",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "game-promo",
+    "title": "游戏推广",
+    "category": "game",
+    "cover": "/assets/works/video-assets/game-promo-1.jpg",
+    "episodes": [
+      {
+        "id": "game-promo-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\游戏推广\\游戏推广.mp4",
+        "previousCover": "/assets/works/video-assets/game-promo-1.jpg",
+        "bilibili": "BV1wopv6hEoG",
+        "watchURL": null
+      }
+    ]
+  },
+  {
+    "id": "sword-legend",
+    "title": "仙剑奇侠传",
+    "category": "game",
+    "cover": "/assets/works/video-assets/sword-legend-1.jpg",
+    "episodes": [
+      {
+        "id": "sword-legend-1",
+        "number": 1,
+        "source": "C:\\Users\\EDY\\Desktop\\哔哩哔哩\\广告\\仙剑奇侠传\\仙剑奇侠传.mp4",
+        "previousCover": "/assets/works/video-assets/sword-legend-1.jpg",
+        "bilibili": "BV1Aopv6hENY",
+        "watchURL": null
+      }
+    ]
+  }
+]

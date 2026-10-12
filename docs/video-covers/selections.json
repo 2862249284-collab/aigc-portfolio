@@ -1,0 +1,22 @@
+{
+  "zongxiang-1": {"percentage":40,"reason":"祖辈包粽子的双人场景，人物清晰，粽叶与食材直接呼应片名。"},
+  "grandpa-1": {"percentage":20,"reason":"爷爷的清晰面部特写，情绪明确，背景简洁。"},
+  "taoyuan-1": {"percentage":40,"reason":"小酒抓住长辈衣袖的互动，面部完整，乡村背景清晰。"},
+  "taoyuan-2": {"percentage":40,"reason":"小酒与公鸡的夜间互动，主角清晰，区别于第一集的日景。"},
+  "pig-farming-1": {"percentage":20,"reason":"男主清晰正面形象，村落环境完整，避开局部脸部极近景。"},
+  "pig-farming-2": {"percentage":40,"reason":"男主与庭院药圃同框，人物与场景完整，与第一集画面不同。"},
+  "xiangshan-1": {"percentage":40,"reason":"黑发主角的正面形象清楚，避开怪物局部和纯场景。"},
+  "xiangshan-2": {"percentage":20,"reason":"同一主角在医院外景中出现，面部完整，与第一集室内画面区分。"},
+  "white-card-1": {"percentage":40,"reason":"白衣男主侧面中景清晰，避开运动模糊与火焰遮挡。"},
+  "white-card-2": {"percentage":20,"reason":"男主与悬浮卡牌界面同框，直接表现卡牌能力，面部不被标题遮挡。"},
+  "white-wand-1": {"percentage":80,"reason":"主要角色与白色魔杖同框，人物完整、魔法学院场景明确。"},
+  "white-wand-2": {"percentage":40,"reason":"女主在蓝色夜景中的清晰特写，与第一集群像形成区分。"},
+  "seventh-element-1": {"percentage":40,"reason":"主角与巨龙、熔岩洞窟同框，竖屏构图完整，代表奇幻题材。"},
+  "lies-and-love-1": {"percentage":20,"reason":"女主通话情绪与面部清晰，避免人物腿部局部或背影。"},
+  "ambrosial-1": {"percentage":80,"reason":"安慕希产品与人物同框，产品归属明确，原片光线明亮。"},
+  "bear-cup-1": {"percentage":40,"reason":"水杯产品完整清晰、细节突出，保留原片真实产品图案。"},
+  "soda-1": {"percentage":80,"reason":"人物、饮料罐与饮品完整同框，避免罐身局部近景。"},
+  "outfit-1": {"percentage":80,"reason":"完整穿搭与配色素材同框，人物头脚完整，服饰层次清楚。"},
+  "game-promo-1": {"percentage":40,"reason":"红裙角色全身与原游戏界面同框，直接呈现游戏广告内容。"},
+  "sword-legend-1": {"percentage":20,"reason":"古装少年在山野场景的清晰正面画面，避开空镜和模糊表情。"}
+}
