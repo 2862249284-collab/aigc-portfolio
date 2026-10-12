@@ -2,6 +2,7 @@ import {assetURL,reducedMotion} from '../lib/dom.js';
 import {worksFor} from '../data/works.js';
 import {displayImages} from '../data/display-images.js';
 import {visibleSlides,uniqueWorks,wrapIndex} from '../lib/carousel-state.js';
+import {workCoverMarkup} from './work-cover.js';
 const decoded=new Map();
 export function displayURL(item){return assetURL(displayImages[item.media]||item.cover||item.media);}
 function preload(src){
@@ -16,12 +17,14 @@ export function mountGallery(category,root,{state,position,duration=640,autoplay
  let index=wrapIndex(state.index,count),busy=false,disposed=false,animations=[],timer=0,hovered=false,previewIndex=null,touch=null,suppressClick=0,lastWheel=0,total=0,consumed=false;
  const nodes=new Map(),motion=matchMedia('(prefers-reduced-motion: reduce)');
  function schedule(){clearTimeout(timer);if(autoplay&&count>1&&!disposed&&!busy&&!hovered&&!dialog.open&&!document.hidden&&!reducedMotion())timer=setTimeout(()=>step(1),4000);}
- function syncNode(node,record){node.dataset.offset=record.offset;node.style.zIndex=record.offset===0?'3':'1';Object.assign(node.style,position(record.offset));node.setAttribute('aria-label',record.offset===0?`${record.item.kind==='character'?'查看角色':'放大作品'}：${record.item.title}`:`${record.offset<0?'上一张':'下一张'}：${record.item.title}`);}
+ function syncNode(node,record){node.dataset.offset=record.offset;node.style.zIndex=record.offset===0?'3':'1';Object.assign(node.style,position(record.offset));node.setAttribute('aria-label',record.offset===0?`${record.item.episodes?'查看作品':record.item.kind==='character'?'查看角色':'放大作品'}：${record.item.title}`:`${record.offset<0?'上一张':'下一张'}：${record.item.title}`);}
  function nodeFor(record){
   if(nodes.has(record.item.id))return nodes.get(record.item.id);
   const node=document.createElement('button');node.className='poster-slide';node.dataset.cursor='view';node.dataset.id=record.item.id;
-  const image=new Image();image.alt=record.item.title;image.draggable=false;image.decoding='async';image.src=displayURL(record.item);node.append(image);
-  if(record.item.actionLabel){const label=document.createElement('span');label.className='gallery-action';label.textContent=record.item.actionLabel;node.append(label);}
+  let image;
+  if(record.item.episodes){node.classList.add('has-work-cover');node.innerHTML=workCoverMarkup(record.item,category,displayURL(record.item));image=node.querySelector('img');}
+  else{image=new Image();image.alt=record.item.title;image.draggable=false;image.decoding='async';image.src=displayURL(record.item);node.append(image);}
+  if(record.item.actionLabel&&!record.item.episodes){const label=document.createElement('span');label.className='gallery-action';label.textContent=record.item.actionLabel;node.append(label);}
   const error=document.createElement('span');error.className='poster-load-error';error.hidden=true;error.textContent='图片暂时无法加载';node.append(error);
   image.addEventListener('error',()=>error.hidden=false,{signal});
   node.addEventListener('click',()=>{const offset=Number(node.dataset.offset);if(offset)step(Math.sign(offset));else open();},{signal});

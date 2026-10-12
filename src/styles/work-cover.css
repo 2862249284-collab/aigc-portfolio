@@ -1,0 +1,17 @@
+/* Only video categories use the shared cover system. Original image galleries stay intact. */
+.video-carousel .poster-slide.has-work-cover{height:auto;max-height:none;display:block;text-align:left;color:inherit}
+.work-cover{display:block;width:100%;font-family:inherit}
+.work-cover-image{display:block;position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;background:rgba(12,14,20,.7)}
+.video-carousel .work-cover-image img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .4s ease}
+.work-cover-caption{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:13px 0 4px;min-height:50px;border-top:1px solid #ffffff28}
+.work-cover-caption strong{font-size:clamp(12px,1.25vw,21px);font-weight:500;line-height:1.5}
+.work-cover-caption>span{font-size:11px;white-space:nowrap;opacity:.65}
+.work-cover-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:48px;height:48px;border:1px solid #ffffff88;border-radius:50%;background:#1117;display:grid;place-items:center;font-size:24px;opacity:0;transition:opacity .25s;pointer-events:none}
+.video-carousel .poster-slide[data-offset="0"]:is(:hover,:focus-visible) .work-cover-image img{transform:scale(1.025)}
+.video-carousel .poster-slide[data-offset="0"]:is(:hover,:focus-visible) .work-cover-play{opacity:1}
+@media(max-width:760px){.work-cover-caption{display:block;padding-top:8px;min-height:58px}.work-cover-caption>span{display:block;margin-top:3px;font-size:9px}.work-cover-play{width:32px;height:32px;font-size:18px}}
+@media(prefers-reduced-motion:reduce){.video-carousel .work-cover-image img,.work-cover-play{transition:none}.video-carousel .poster-slide[data-offset="0"]:hover .work-cover-image img{transform:none}}
+
+.video-carousel .poster-caption h2{display:none}
+
+@media(max-width:760px){.is-poster-gallery .video-carousel{--banner-width:min(72vw,calc((100dvh - 300px)*1.7778));--video-gap:20px}}

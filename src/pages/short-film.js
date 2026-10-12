@@ -1,3 +1,4 @@
+import {findCategory} from '../data/categories.js';
 import {bannerMarkup} from '../components/banner-carousel.js';
 import {mountGallery} from '../components/gallery-controller.js';
 const videoGalleryState={};
@@ -29,7 +30,7 @@ export function shortFilmMarkup(category,selected){
 }
 export function mountShortFilm(root){
  const gallery=root.querySelector('.video-carousel');
- if(gallery){const id=gallery.dataset.carousel;return mountGallery({id},root,{state:(videoGalleryState[id]??={index:0}),entries:worksFor(id).map(work=>({...work,actionLabel:'PLAY FILM / 查看作品'})),autoplay:true,duration:700,position:offset=>({transform:`translateX(calc(${offset*100}% + ${offset*70}px))`,opacity:Math.abs(offset)>1?0:offset===0?1:.5}),onActivate:work=>{const link=gallery.querySelector('[data-video-route]');link.setAttribute('href',routeFor(work));link.click();}});}
+ if(gallery){const id=gallery.dataset.carousel;return mountGallery(findCategory(id),root,{state:(videoGalleryState[id]??={index:0}),entries:worksFor(id).map(work=>({...work,actionLabel:'PLAY FILM / 查看作品'})),autoplay:true,duration:700,position:offset=>({transform:`translateX(calc(${offset*100}% + var(--video-gap,70px) * ${offset})) scale(${offset===0?1:.92})`,opacity:Math.abs(offset)>1?0:offset===0?1:.5}),onActivate:work=>{const link=gallery.querySelector('[data-video-route]');link.setAttribute('href',routeFor(work));link.click();}});}
  const page=root.querySelector('.short-film-page');if(!page)return()=>{};
  const controller=new AbortController();let active=null;
  const signal=controller.signal;

@@ -29,10 +29,10 @@ function render(){
   cleanups.forEach(dispose=>dispose());cleanups=[];
   const route=resolveRoute(location.pathname);currentPath=location.pathname;
   let content;
-  if(route.type==='home'){content=homeMarkup();document.title='AIGC 创作者 — 视觉艺术与 AI 影像';}
-  else if(route.type==='category'){content=route.category.medium==='video'?shortFilmMarkup(route.category):route.category.id==='ip'?ipOverviewMarkup():route.category.id==='banner'?bannerMarkup(route.category):route.category.medium==='image'?carouselMarkup(route.category):categoryMarkup(route.category);document.title=`${route.category.name}作品 — AIGC 创作者`;}
-  else if(route.type==='detail'){content=route.work.episodes?shortFilmMarkup(route.category,route.work):route.work.category==='ip'?ipDetailMarkup(route.work):detailMarkup(route.work,route.category);document.title=`${route.work.title} — AIGC 创作者`;}
-  else {content='<section class="not-found"><span class="eyebrow">404 / OUTSIDE THE ORBIT</span><h1>暂未发现这个世界。</h1><a class="text-link" href="/" data-route>返回首页 ↗</a></section>';document.title='未找到页面 — AIGC 创作者';}
+  if(route.type==='home'){content=homeMarkup();document.title='AIGC内容创作师 — 视觉艺术与 AI 影像';}
+  else if(route.type==='category'){content=route.category.medium==='video'?shortFilmMarkup(route.category):route.category.id==='ip'?ipOverviewMarkup():route.category.id==='banner'?bannerMarkup(route.category):route.category.medium==='image'?carouselMarkup(route.category):categoryMarkup(route.category);document.title=`${route.category.name}作品 — AIGC内容创作师`;}
+  else if(route.type==='detail'){content=route.work.episodes?shortFilmMarkup(route.category,route.work):route.work.category==='ip'?ipDetailMarkup(route.work):detailMarkup(route.work,route.category);document.title=`${route.work.title} — AIGC内容创作师`;}
+  else {content='<section class="not-found"><span class="eyebrow">404 / OUTSIDE THE ORBIT</span><h1>暂未发现这个世界。</h1><a class="text-link" href="/" data-route>返回首页 ↗</a></section>';document.title='未找到页面 — AIGC内容创作师';}
   const activeDiscipline=route.type==='detail'?route.work.category:route.type==='category'?route.category.id:null;
   const bar=activeDiscipline?disciplineBarMarkup(activeDiscipline):'';
   app.innerHTML=`${headerMarkup()}<main id="main" class="${route.type==='home'?'':'route-enter'}" tabindex="-1">${bar}${content}</main>${footerMarkup()}`;
