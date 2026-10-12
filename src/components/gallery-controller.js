@@ -27,7 +27,7 @@ export function mountGallery(category,root,{state,position,duration=640,autoplay
   if(record.item.actionLabel&&!record.item.episodes){const label=document.createElement('span');label.className='gallery-action';label.textContent=record.item.actionLabel;node.append(label);}
   const error=document.createElement('span');error.className='poster-load-error';error.hidden=true;error.textContent='图片暂时无法加载';node.append(error);
   image.addEventListener('error',()=>error.hidden=false,{signal});
-  node.addEventListener('click',()=>{const offset=Number(node.dataset.offset);if(offset)step(Math.sign(offset));else open();},{signal});
+  node.addEventListener('click',()=>{if(onActivate&&record.item.episodes){clearTimeout(timer);onActivate(record.item);return;}const offset=Number(node.dataset.offset);if(offset)step(Math.sign(offset));else open();},{signal});
   slots.append(node);nodes.set(record.item.id,node);return node;
  }
  function paint(){

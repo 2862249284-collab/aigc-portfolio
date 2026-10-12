@@ -209,7 +209,8 @@ test('the home APP entry keeps its copy and never emits a dead link', async () =
   const html = appEntryMarkup();
   assert(html.includes(appSite.title));
   assert(html.includes('APP DOWNLOAD WEBSITE'));
-  assert(html.includes('Product / Interface / Experience'));
+  assert(html.includes('记账工具'));
+  assert(html.includes(appSite.intro));
   assert(!html.includes('<dialog'), 'no intermediate APP preview');
   assert(html.includes(`href="${appSite.siteUrl}" target="_blank"`));
   const original=appSite.siteUrl;try{appSite.siteUrl='';assert(appEntryMarkup().includes('aria-disabled="true"'));assert(!appEntryMarkup().includes('href='));}finally{appSite.siteUrl=original;}

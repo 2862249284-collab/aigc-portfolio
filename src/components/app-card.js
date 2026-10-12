@@ -7,10 +7,11 @@ export function appEntryMarkup(){
   const configured = Boolean(assetURL(appSite.siteUrl));
   return `<section class="app-entry" id="app-website" aria-labelledby="app-entry-heading">
     <div class="section-heading" data-reveal><span class="section-number">04 / APP PROJECT</span><span class="micro">PRODUCT · INTERFACE · EXPERIENCE</span><span class="section-plus" aria-hidden="true">+</span></div>
-    <a class="app-entry-card" data-reveal aria-describedby="app-entry-tagline" ${configured?`href="${e(assetURL(appSite.siteUrl))}" target="_blank" rel="noopener noreferrer"`:'aria-disabled="true"'}>
+    <a class="app-entry-card" data-reveal aria-describedby="app-entry-tagline app-entry-intro" ${configured?`href="${e(assetURL(appSite.siteUrl))}" target="_blank" rel="noopener noreferrer"`:'aria-disabled="true"'}>
       <span class="app-entry-glow" aria-hidden="true"></span>
       <span class="app-entry-body">
         <span class="app-entry-title" id="app-entry-heading"><span class="app-entry-cn">${e(appSite.title)}</span><span class="app-entry-en">${e(appSite.english)}</span></span>
+        <span class="app-entry-intro" id="app-entry-intro">${e(appSite.intro)}</span>
         <span class="app-entry-tagline" id="app-entry-tagline">${e(appSite.tagline)}</span>
       </span>
       <span class="app-entry-arrow" aria-hidden="true">${arrow}</span>

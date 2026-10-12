@@ -68,7 +68,7 @@ function navigate(url,{pop=false,source=null}={}){
   render();scrollToDestination(url.hash,'instant',pop?positions.get(url.pathname+url.hash):0);
   if(url.hash==='#work-orbit')app.querySelector('.orbit-layout')?.classList.add('orbit-arriving');
   };
-  if(!pop&&!reducedMotion()&&currentPath!==url.pathname){
+  if(!pop&&!reducedMotion()&&currentPath!==url.pathname&&!source?.matches('.orbit-node,.discipline-link')){
     const orbit=source?.closest('.orbit-layout');
     if(orbit){orbit.classList.add('orbit-departing');source.classList.add('node-departing');}
     else app.querySelector('main')?.classList.add('route-departing');

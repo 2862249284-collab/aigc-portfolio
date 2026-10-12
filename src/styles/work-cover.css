@@ -15,3 +15,5 @@
 .video-carousel .poster-caption h2{display:none}
 
 @media(max-width:760px){.is-poster-gallery .video-carousel{--banner-width:min(72vw,calc((100dvh - 300px)*1.7778));--video-gap:20px}}
+
+.work-cover-episode{display:block;font-size:.7em;font-weight:400;letter-spacing:.1em;opacity:.7;margin-top:4px}.short-film-player-wrap .work-cover-caption{text-align:left;padding:13px 0}.work-cover-caption strong{overflow-wrap:anywhere}

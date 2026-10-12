@@ -71,7 +71,7 @@ export function mountOrbit(section){
     else if(event.key==='Escape'){event.preventDefault();section.querySelector('.orbit-leave').focus();}
   },{signal});
   section.querySelectorAll('[data-orbit-step]').forEach(button=>button.addEventListener('click',()=>select(target+Number(button.dataset.orbitStep)),{signal}));
-  nodes.forEach((node,i)=>node.addEventListener('focus',()=>{const index=wrap(target,8);let distance=i-index;if(distance>4)distance-=8;if(distance<-4)distance+=8;select(target+distance);},{signal}));
+  // Keep pointer and keyboard focus stationary; arrows control orbit rotation.
   orbit.addEventListener('pointerdown',event=>{if(event.pointerType==='touch')touch={x:event.clientX,y:event.clientY};},{passive:true,signal});
   orbit.addEventListener('pointerup',event=>{
     if(!touch)return;const dx=event.clientX-touch.x,dy=event.clientY-touch.y;touch=null;

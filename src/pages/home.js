@@ -11,7 +11,7 @@ export function homeMarkup(){
     <div class="hero-topline"><span>INDEPENDENT CREATIVE PRACTICE</span><span>PORTFOLIO — VOL. 01</span></div>
     <div class="hero-title-wrap"><span class="hero-eyebrow">在真实之外，创造可能。</span>
       <div class="hero-title-group">
-        <h1 class="hero-title-main" id="hero-heading">AI漫剧</h1>
+        <h1 class="hero-title-main" id="hero-heading">AIGC内容创作师</h1>
         <h2 class="hero-title-sub">AI视觉设计师</h2>
       </div>
       <div class="hero-title-bottom"><span>AIGC内容创作师</span><p>${e(profile.english)}</p></div>
