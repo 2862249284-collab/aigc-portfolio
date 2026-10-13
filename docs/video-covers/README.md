@@ -28,10 +28,10 @@
 | THE Seventh Element第七元素 | 分类主封面 | `/assets/video-covers/seventh-element-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\出海\THE Seventh Element第七元素\真人01.mp4` · 40% / 108.360s | 已完成 |
 | Between Lies and Love谎言与爱之间 | 分类主封面 | `/assets/video-covers/lies-and-love-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\出海\Between Lies and Love谎言与爱之间\真人02.mp4` · 20% / 47.460s | 已完成 |
 | 安慕希广告 | 分类主封面 | `/assets/video-covers/ambrosial-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\安慕希\安慕希广告.mp4` · 80% / 57.608s | 已完成 |
-| AI小熊水杯 | 分类主封面 | `/assets/video-covers/bear-cup-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\杯子\1787825391405.mp4` · 40% / 4.824s | 已完成 |
-| 汽水 | 分类主封面 | `/assets/video-covers/soda-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\汽水广告\屏幕录制 2026-10-07 161800.mp4` · 80% / 9.784s | 已完成 |
+| 元气小熊水杯推广 | 分类主封面 | `/assets/video-covers/bear-cup-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\杯子\1787825391405.mp4` · 40% / 4.824s | 已完成 |
+| OLIPOP汽水推广 | 分类主封面 | `/assets/video-covers/soda-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\汽水广告\屏幕录制 2026-10-07 161800.mp4` · 80% / 9.784s | 已完成 |
 | AI变装 | 分类主封面 | `/assets/video-covers/outfit-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\变装\变装.mp4` · 80% / 9.680s | 已完成 |
-| 游戏推广 | 分类主封面 | `/assets/video-covers/game-promo-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\游戏推广\游戏推广.mp4` · 40% / 18.884s | 已完成 |
+| Sweet Dreams 游戏推广 | 分类主封面 | `/assets/video-covers/game-promo-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\游戏推广\游戏推广.mp4` · 40% / 18.884s | 已完成 |
 | 仙剑奇侠传 | 分类主封面 | `/assets/video-covers/sword-legend-main.webp` | `C:\Users\EDY\Desktop\哔哩哔哩\广告\仙剑奇侠传\仙剑奇侠传.mp4` · 20% / 55.088s | 已完成 |
 
 ## 素材待补充

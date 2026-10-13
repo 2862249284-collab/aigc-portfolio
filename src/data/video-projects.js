@@ -868,7 +868,7 @@ const originalVideoProjects = [
   },
   {
     "id": "bear-cup",
-    "title": "AI小熊水杯",
+    "title": "元气小熊水杯推广",
     "category": "tvc",
     "mediaType": "video",
     "description": "",
@@ -938,7 +938,7 @@ const originalVideoProjects = [
   },
   {
     "id": "soda",
-    "title": "汽水",
+    "title": "OLIPOP汽水推广",
     "category": "tvc",
     "mediaType": "video",
     "description": "",
@@ -1068,7 +1068,7 @@ const originalVideoProjects = [
   },
   {
     "id": "game-promo",
-    "title": "游戏推广",
+    "title": "Sweet Dreams 游戏推广",
     "category": "game",
     "mediaType": "video",
     "description": "",

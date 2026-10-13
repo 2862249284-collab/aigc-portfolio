@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--font', default='C:/Windows/Fonts/msyhbd.ttc')
 parser.add_argument('--regular-font', default='C:/Windows/Fonts/msyh.ttc')
+parser.add_argument('--only', nargs='+', help='Regenerate only these project IDs; preserve all other files')
 args = parser.parse_args()
 OUT = ROOT / 'public/assets/video-covers'
 OUT.mkdir(parents=True, exist_ok=True)
@@ -28,8 +29,15 @@ line_breaks = {
 }
 profile = ImageCms.ImageCmsProfile(ImageCms.createProfile('sRGB')).tobytes()
 manifest, bindings = [], {}
+previous = read('results') if args.only else []
+if args.only and not set(args.only).issubset({p['id'] for p in projects}):
+    raise ValueError('Unknown project ID')
 
 def compose(project, episode, filename, episode_label=False):
+    if args.only and project['id'] not in args.only:
+        entry = next(item for item in previous if item['file'] == '/assets/video-covers/'+filename)
+        manifest.append(entry)
+        return entry['file']
     selection = selections[episode['id']]
     record = candidate_map[episode['id']]
     candidate = next(c for c in record['candidates'] if c['percentage'] == selection['percentage'])

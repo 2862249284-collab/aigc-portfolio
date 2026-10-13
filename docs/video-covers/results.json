@@ -817,7 +817,7 @@
   },
   {
     "projectId": "bear-cup",
-    "title": "AI小熊水杯",
+    "title": "元气小熊水杯推广",
     "category": "TVC",
     "episode": null,
     "file": "/assets/video-covers/bear-cup-main.webp",
@@ -833,14 +833,14 @@
     "selectionReason": "水杯产品完整清晰、细节突出，保留原片真实产品图案。",
     "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
     "titleLines": [
-      "AI小熊水杯"
+      "元气小熊水杯推广"
     ],
     "titleBounds": [
       [
-        725.0,
-        494.5,
-        1195.0,
-        585.5
+        591.0,
+        494.0,
+        1329.0,
+        586.0
       ]
     ],
     "size": [
@@ -849,13 +849,13 @@
     ],
     "colorSpace": "sRGB",
     "quality": 88,
-    "bytes": 51202,
-    "sha256": "0be3bc59defc3b9e38bfe08e6d8f878846b8fe61060eb51891e4669b9836078a",
+    "bytes": 54008,
+    "sha256": "35d6eb8e4ab3a3e3eca19df9c97d0f7ae02f0913e2cdb5e5c0f93230c928d5a0",
     "status": "完成：本地原片提帧，已人工比较四张候选"
   },
   {
     "projectId": "soda",
-    "title": "汽水",
+    "title": "OLIPOP汽水推广",
     "category": "TVC",
     "episode": null,
     "file": "/assets/video-covers/soda-main.webp",
@@ -871,14 +871,14 @@
     "selectionReason": "人物、饮料罐与饮品完整同框，避免罐身局部近景。",
     "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
     "titleLines": [
-      "汽水"
+      "OLIPOP汽水推广"
     ],
     "titleBounds": [
       [
-        867.0,
-        494.5,
-        1053.0,
-        585.5
+        599.5,
+        494.0,
+        1320.5,
+        586.0
       ]
     ],
     "size": [
@@ -887,8 +887,8 @@
     ],
     "colorSpace": "sRGB",
     "quality": 88,
-    "bytes": 61524,
-    "sha256": "540b387f6f5c903e18651921246879c9a77f3ceb733e1b2b6fe606aa79c7e8b2",
+    "bytes": 61492,
+    "sha256": "50ad610046448c4e5f6ca7f064928210c5245c050b6ec03e77e79b13be941d5e",
     "status": "完成：本地原片提帧，已人工比较四张候选"
   },
   {
@@ -931,7 +931,7 @@
   },
   {
     "projectId": "game-promo",
-    "title": "游戏推广",
+    "title": "Sweet Dreams 游戏推广",
     "category": "游戏",
     "episode": null,
     "file": "/assets/video-covers/game-promo-main.webp",
@@ -947,13 +947,13 @@
     "selectionReason": "红裙角色全身与原游戏界面同框，直接呈现游戏广告内容。",
     "composition": "完整主体居中；同帧模糊延展；底部渐变；正中央标题与集数；右上分类",
     "titleLines": [
-      "游戏推广"
+      "Sweet Dreams 游戏推广"
     ],
     "titleBounds": [
       [
-        775.0,
+        431.5,
         493.5,
-        1145.0,
+        1488.5,
         586.5
       ]
     ],
@@ -963,8 +963,8 @@
     ],
     "colorSpace": "sRGB",
     "quality": 88,
-    "bytes": 86960,
-    "sha256": "2b814c2ed736225d3d517308e587d848dd6ec0869bcf72a16b8b1d1c89208091",
+    "bytes": 93824,
+    "sha256": "3877ecfc8190d4fc77607197168e8a2a5528534659e079f011e59e214f35d04c",
     "status": "完成：本地原片提帧，已人工比较四张候选"
   },
   {
