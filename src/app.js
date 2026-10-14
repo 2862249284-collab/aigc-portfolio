@@ -37,6 +37,8 @@ function render(){
   const bar=activeDiscipline?disciplineBarMarkup(activeDiscipline):'';
   app.innerHTML=`${headerMarkup()}<main id="main" class="${route.type==='home'?'':'route-enter'}" tabindex="-1">${bar}${content}</main>${footerMarkup()}`;
   document.body.dataset.page=route.type;
+  const track=app.querySelector('.discipline-bar-track'),selectedLink=track?.querySelector('[aria-current="page"]');
+  if(selectedLink&&track.scrollWidth>track.clientWidth){track.scrollLeft+=selectedLink.getBoundingClientRect().left-track.getBoundingClientRect().left-(track.clientWidth-selectedLink.offsetWidth)/2;}
   const isImageGallery=route.type==='category'&&route.category.medium==='image'&&route.category.id!=='ip';
   document.body.classList.toggle('is-poster-gallery',isImageGallery||(route.type==='category'&&route.category.medium==='video'));
   document.body.classList.toggle('is-work-route',Boolean(activeDiscipline));
