@@ -8,3 +8,5 @@
 
 @media(max-width:760px){.about-profile-layout{grid-template-columns:1fr;gap:36px}.about-profile-layout .portrait-column{width:min(100%,546px)}.about-profile-layout .portrait-frame,.about-profile-layout .portrait-media{max-height:72dvh}}
 .app-entry-intro{display:block;max-width:680px;font-size:clamp(13px,1.2vw,16px);line-height:1.9;color:inherit;opacity:.8;margin-top:8px}
+
+.footer-contact .contact-email{display:block;font-size:clamp(14px,1.3vw,20px);margin-bottom:24px;overflow-wrap:anywhere}

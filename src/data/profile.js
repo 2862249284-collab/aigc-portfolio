@@ -9,7 +9,7 @@ export const profile = {
   ],
   portrait: '/assets/portrait/yu-miao.webp', // 独立照片资源；可替换为新的个人照片路径。
   portraitAlt: '于淼个人照片',
-  email: '', // 例如 hello@example.com；不填写时不会展示虚构联系方式。
+  email: '13944279415@163.com',
   socials: [], // 例如 [{ label: '小红书', url: 'https://...' }]
   disciplines: ['脚本拆解与分镜设计', 'AI视觉资产与数字角色', 'AI视频生成与后期交付'],
   doll: {
